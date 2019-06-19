@@ -23,7 +23,7 @@ description:
 # root of your server.
 #baseurl: "/centrarium" # the subpath of your site, e.g. /blog/
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://haltaro.github.io" # the base hostname & protocol for your site
+url: "https://kurutasu.github.io" # the base hostname & protocol for your site
 cover: "/assets/cover_image.jpg"
 logo: "/assets/logo.png"
 permalink: "/:year/:month/:day/:title"

@@ -10,14 +10,12 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: Memotaro
-subtitle: "Haltaro's technical memorandum"
-email: mail.to.haltaro[at]gmail.com
-name: haltaro
+title: kurutasu memo
+subtitle: "Kurutasu's technical memorandum"
+email: ulow68@gmail.com
+name: kurutasu
 description:
-  I'm haltaro, a data scientist at an advertising agency in Tokyo, Japan.
-  I love machine learning, marketing science,
-  network engineering and shiba-inu:)
+  I'm Kurutasu,  in Gunma, Japan.
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
@@ -47,13 +45,13 @@ highlightjs_theme: "zenburn"
 #    tag: '/tag/:name/'
 
 # Disqus comments
-disqus_shortname: memotaro-haltaro
+# disqus_shortname: kurutasu-memo
 
 # Algolia settings
-algolia:
-   application_id: W1ZQ0FTVG1
-   index_name: memotaro
-   search_only_api_key: 2aa4cae0d629ee50410d4fc8afa6b788
+# algolia:
+#    application_id: W1ZQ0FTVG1
+#    index_name: memotaro
+#    search_only_api_key: 2aa4cae0d629ee50410d4fc8afa6b788
 
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
@@ -100,12 +98,12 @@ algolia:
 #     desc: Follow me on Twitter            # Description to display as link title, etc
 #     share: true                           # Include in the "Share" section of posts
 social:
-#  - name: Twitter
-#    icon: twitter
-#    username: TheBenCentra
-#    url: https://twitter.com/TheBenCentra
-#    desc: Follow me on Twitter
-#    share: true
+  - name: Twitter
+    icon: twitter
+    username: kurutasu
+    url: https://twitter.com/kurutasu
+    desc: Follow me on Twitter
+    share: true
 
 #  - name: Facebook
 #    icon: facebook
@@ -116,24 +114,24 @@ social:
 
   - name: GitHub
     icon: github
-    username: github.com/haltaro
-    url: https://github.com/haltaro
+    username: github.com/kurutasu
+    url: https://github.com/kurutasu
     desc: Fork me on GitHub
     share: false
 
   - name: Qiita
     icon: search
-    username: qiita.com/haltaro
-    url: https://qiita.com/haltaro
+    username: qiita.com/kurutasu
+    url: https://qiita.com/kurutasu
     desc: Follow me on Qiita
     share: false
 
-  - name: Kaggle
-    icon: space-shuttle
-    username: kaggle.com/haltaro
-    url: https://kaggle.com/haltaro
-    desc: Follow me on Kaggle
-    share: false
+#  - name: Kaggle
+#    icon: space-shuttle
+#    username: kaggle.com/haltaro
+#    url: https://kaggle.com/haltaro
+#    desc: Follow me on Kaggle
+#    share: false
 
 #  - name: LinkedIn
 #    icon: linkedin

@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>AWSCloud9 を 使用しての jekyll で静的ページの開設</title>
+  <meta name="description" content="AWSCloud9 を 使用しての jekyll で静的ページの開設参考Webサイト      参考Qiita:AWS cloud9でjekyll開発        参考:Running Jekyll on Cloud9        AWS公式:AWS Cloud9 の特徴        jekyll公式  手...">
+  
+  <meta name="author" content="kurutasu">
+  <meta name="copyright" content="&copy; kurutasu 2019">
+  
+
+  <!-- External libraries -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/zenburn.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css">
+  <!-- Mathjax -->
+  <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <!-- BotUI -->
+  <link rel="stylesheet" href="/css/botui.min.css" >
+  <link rel="stylesheet" href="/css/botui-theme-default.css" >
+
+  <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
+  <!--
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/assets/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+-->
+  <link rel="icon" href="/assets/logo.png">
+  <link rel="apple-touch-icon" href="/assets/logo.png">
+
+  <link rel="manifest" href="/assets/icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/assets/icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  
+  <!-- Facebook OGP cards -->
+  <meta property="og:description" content="AWSCloud9 を 使用しての jekyll で静的ページの開設参考Webサイト      参考Qiita:AWS cloud9でjekyll開発        参考:Running Jekyll on Cloud9        AWS公式:AWS Cloud9 の特徴        jekyll公式  手..." />
+  <meta property="og:url" content="http://localhost:8080" />
+  <meta property="og:site_name" content="kurutasu memo" />
+  <meta property="og:title" content="AWSCloud9 を 使用しての jekyll で静的ページの開設" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="http://localhost:8080/assets/logo.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="612" />
+  <meta property="og:image:height" content="605" />
+  
+
+  
+  <!-- Twitter: card tags -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="AWSCloud9 を 使用しての jekyll で静的ページの開設">
+  <meta name="twitter:description" content="AWSCloud9 を 使用しての jekyll で静的ページの開設参考Webサイト      参考Qiita:AWS cloud9でjekyll開発        参考:Running Jekyll on Cloud9        AWS公式:AWS Cloud9 の特徴        jekyll公式  手...">
+  <meta name="twitter:image" content="http://localhost:8080/assets/logo.png">
+  <meta name="twitter:url" content="http://localhost:8080">
+  
+
+  
+
+  <!-- Site styles -->
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:8080/2019/06/18/aws-cloud9-jekyll">
+  <link rel="alternate" type="application/rss+xml" title="kurutasu memo" href="http://localhost:8080/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <a href="/" class="logo">
+      
+      <img src="/assets/logo.png" alt="kurutasu memo">
+      
+    </a>
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+        
+          
+          <li class="nav-link"><a href="/about/">About</a>
+          
+        
+          
+          <li class="nav-link"><a href="/categories/">Categories</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <li class="nav-link"><a href="/projects/">Projects</a>
+          
+        
+          
+          <li class="nav-link"><a href="/search/">Search</a>
+          
+        
+          
+        
+          
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <div class="page-content">
+        <div class="post">
+
+<div class="post-header-container " >
+  <div class="scrim ">
+    <header class="post-header">
+      <h1 class="title">AWSCloud9 を 使用しての jekyll で静的ページの開設</h1>
+      <!--<p class="info">by <strong></strong></p>-->
+    </header>
+  </div>
+</div>
+
+<div class="wrapper">
+
+ <span class="page-divider">
+  <span class="one"></span>
+  <span class="two"></span>
+</span>
+ 
+
+<section class="post-meta">
+  <div class="post-date">June 18, 2019</div>
+  <div class="post-categories">
+  in 
+    
+    <a href="/categories/#AWS">Aws</a>, 
+    
+  
+    
+    <a href="/categories/#jekyll">Jekyll</a>
+    
+  
+  </div>
+</section>
+
+<article class="post-content">
+  <h1 id="awscloud9-を-使用しての-jekyll-で静的ページの開設">AWSCloud9 を 使用しての jekyll で静的ページの開設</h1>
+
+<h2 id="参考webサイト">参考Webサイト</h2>
+<ul>
+  <li>
+    <p><a href="https://qiita.com/walrein/items/40796eb036eaa3248871">参考Qiita:AWS cloud9でjekyll開発</a></p>
+  </li>
+  <li>
+    <p><a href="https://www.jflh.ca/2016-01-18-running-jekyll-on-cloud9">参考:Running Jekyll on Cloud9</a></p>
+  </li>
+  <li>
+    <p><a href="https://aws.amazon.com/jp/cloud9/details/">AWS公式:AWS Cloud9 の特徴</a></p>
+  </li>
+  <li>
+    <p><a href="https://jekyllrb.com/">jekyll公式</a></p>
+  </li>
+</ul>
+
+<hr />
+
+<h1 id="手順">手順</h1>
+
+<h2 id="jekyllのインストール">jekyllのインストール</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ cd username.github.io/
+$ gem install jekyll
+$ gem install jekyll bundler
+</code></pre></div></div>
+
+<h2 id="ruby関連ツールのインストール">Ruby関連ツールのインストール</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ gem install bundler
+$ gem install concurrent-ruby
+</code></pre></div></div>
+
+<h2 id="サイトの作成">サイトの作成</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ jekyll new mylog
+</code></pre></div></div>
+
+<hr />
+
+<h1 id="実行">実行</h1>
+
+<h2 id="ローカル実行">ローカル実行</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ cd myblog
+$ bundle exec jekyll serve
+    Configuration file: /home/ec2-user/environment/myblog/_config.yml
+               Source: /home/ec2-user/environment/myblog
+           Destination: /home/ec2-user/environment/myblog/_site
+     Incremental build: disabled. Enable with --incremental
+          Generating...
+           Jekyll Feed: Generating feed for posts
+                        done in 0.44 seconds.
+     Auto-regeneration: enabled for '/home/ec2-user/environment/myblog'
+        Server address: http://127.0.0.1:4000/
+      Server running... press ctrl-c to stop.
+</code></pre></div></div>
+
+<ul>
+  <li>ローカル環境であれば問題ないが、Cloud9上だとポート指定で開くことができない</li>
+</ul>
+
+<h2 id="cloud9上での実行">Cloud9上での実行</h2>
+
+<ol>
+  <li><code class="highlighter-rouge">Run</code>メニュー</li>
+  <li><code class="highlighter-rouge">Run Configurations</code>サブメニュー</li>
+  <li>名前に<code class="highlighter-rouge">jekyll</code>を設定</li>
+  <li>Commandに<code class="highlighter-rouge">jekyll serve --host 0.0.0.0 --port $PORT</code>を設定</li>
+  <li><code class="highlighter-rouge">CMD</code>をクリックし、実行フォルダを作成した<code class="highlighter-rouge">myblog</code>に指定する</li>
+  <li><code class="highlighter-rouge">RUN</code>で実行</li>
+</ol>
+
+<p><img src="https://camo.qiitausercontent.com/02a8952d5c91d5431ebc04e1f3f16d67447f48d0/68747470733a2f2f71696974612d696d6167652d73746f72652e73332e616d617a6f6e6177732e636f6d2f302f34333630382f38613935613232352d636165302d373235652d616134352d3036333731303066626432352e706e67" alt="" /></p>
+
+<ul>
+  <li>下記のようなイメージのサイトが生成される</li>
+</ul>
+
+<p><img src="/assets/posts/20190618_jekyll_awscloud9_01.PNG" alt="" /></p>
+
+</article>
+
+
+
+<section class="rss">
+  <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+</section>
+
+<!--
+<section class="share">
+  <span>Share: </span>
+  
+    
+    
+      <a href="//twitter.com/share?text=AWSCloud9+%E3%82%92+%E4%BD%BF%E7%94%A8%E3%81%97%E3%81%A6%E3%81%AE+jekyll+%E3%81%A7%E9%9D%99%E7%9A%84%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E9%96%8B%E8%A8%AD&url=http%3A%2F%2Flocalhost%3A8080%2F2019%2F06%2F18%2Faws-cloud9-jekyll&via=kurutasu"
+        onclick="window.open(this.href, 'twitter-share', 'width=550,height=255');return false;">
+        <i class="fa fa-twitter-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+</section>
+-->
+
+
+
+
+
+</div>
+</div>
+
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h3 class="footer-heading">kurutasu memo</h3>
+
+    <div class="site-navigation">
+
+      <p><strong>Site Map</strong></p>
+      <ul class="pages">
+        
+        
+          <li class="nav-link"><a href="/about/">About</a>
+        
+        
+        
+          <li class="nav-link"><a href="/categories/">Categories</a>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+          <li class="nav-link"><a href="/projects/">Projects</a>
+        
+        
+        
+          <li class="nav-link"><a href="/search/">Search</a>
+        
+        
+        
+        
+        
+        
+      </ul>
+    </div>
+
+    <div class="site-contact">
+
+      <p><strong>Contact</strong></p>
+      <ul class="social-media-list">
+        <li>
+          <a href="mailto:ulow68@gmail.com">
+            <i class="fa fa-envelope-o"></i>
+            <span class="username">ulow68@gmail.com</span>
+          </a>
+        </li>
+
+        
+          
+          <li>
+            <a href="https://twitter.com/kurutasu" title="Follow me on Twitter">
+              <i class="fa fa-twitter"></i>
+              <span class="username">kurutasu</span>
+            </a>
+          </li>
+          
+        
+          
+          <li>
+            <a href="https://github.com/kurutasu" title="Fork me on GitHub">
+              <i class="fa fa-github"></i>
+              <span class="username">github.com/kurutasu</span>
+            </a>
+          </li>
+          
+        
+          
+          <li>
+            <a href="https://qiita.com/kurutasu" title="Follow me on Qiita">
+              <i class="fa fa-search"></i>
+              <span class="username">qiita.com/kurutasu</span>
+            </a>
+          </li>
+          
+        
+
+      </ul>
+    </div>
+
+    <div class="site-signature">
+      <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+      <p class="text">I'm Kurutasu,  in Gunma, Japan.</p>
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- Scripts -->
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  // Default syntax highlighting
+  hljs.initHighlightingOnLoad();
+
+  // Header
+  var menuToggle = $('#js-mobile-menu').unbind();
+  $('#js-navigation-menu').removeClass("show");
+  menuToggle.on('click', function(e) {
+    e.preventDefault();
+    $('#js-navigation-menu').slideToggle(function(){
+      if($('#js-navigation-menu').is(':hidden')) {
+        $('#js-navigation-menu').removeAttr('style');
+      }
+    });
+  });
+});
+
+</script>
+
+
+
+
+
+
+    
+
+  </body>
+
+</html>

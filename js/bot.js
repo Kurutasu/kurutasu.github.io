@@ -4,7 +4,7 @@
 
   //初期メッセージ．
   botui.message.add({
-    content: 'こんにちは！haltaroです！'
+    content: 'こんにちは！kurutasuです！'
   }).then(showQuestions);
 
 
@@ -20,9 +20,10 @@
         autoHide: false,
         delay: 1500,
         action: [
-          {icon: 'user-o', text: '来歴', value: 'carrier'},
-          {icon: 'rocket', text: '趣味', value: 'hobby'},
-          {icon: 'pencil', text: 'サイト', value: 'memotaro'}]
+          //{icon: 'user-o', text: '来歴', value: 'carrier'},
+          //{icon: 'rocket', text: '趣味', value: 'hobby'},
+          //{icon: 'pencil', text: 'サイト', value: 'memotaro'}
+          ]
       });
     }).then(function(res) {
       botui.action.hide();
@@ -39,7 +40,7 @@
   function showCarrier() {
     botui.message.add({
       delay: 1500,
-      content: '大学院では，工学修士（航空宇宙工学）を修了しました．主に，GPS衛星の異常検知について研究しました．'
+      content: '大学では，（航空宇宙工学）を修了しました．主に，GPS衛星の異常検知について研究しました．'
     }).then(function() {
       return botui.message.add({
         delay: 2500,

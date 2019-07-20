@@ -52,11 +52,11 @@
   
   <!-- Facebook OGP cards -->
   <meta property="og:description" content="I'm Kurutasu,  in Gunma, Japan." />
-  <meta property="og:url" content="http://localhost:8080" />
+  <meta property="og:url" content="http://0.0.0.0:8080" />
   <meta property="og:site_name" content="kurutasu memo" />
   <meta property="og:title" content="kurutasu memo" />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="http://localhost:8080/assets/logo.png" />
+  <meta property="og:image" content="http://0.0.0.0:8080/assets/logo.png" />
   <meta property="og:image:type" content="image/png" />
   <meta property="og:image:width" content="612" />
   <meta property="og:image:height" content="605" />
@@ -67,16 +67,16 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="kurutasu memo">
   <meta name="twitter:description" content="I'm Kurutasu,  in Gunma, Japan.">
-  <meta name="twitter:image" content="http://localhost:8080/assets/logo.png">
-  <meta name="twitter:url" content="http://localhost:8080">
+  <meta name="twitter:image" content="http://0.0.0.0:8080/assets/logo.png">
+  <meta name="twitter:url" content="http://0.0.0.0:8080">
   
 
   
 
   <!-- Site styles -->
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:8080/">
-  <link rel="alternate" type="application/rss+xml" title="kurutasu memo" href="http://localhost:8080/feed.xml" />
+  <link rel="canonical" href="http://0.0.0.0:8080/">
+  <link rel="alternate" type="application/rss+xml" title="kurutasu memo" href="http://0.0.0.0:8080/feed.xml" />
 </head>
 
 
@@ -147,13 +147,15 @@
       <a class="post-link" href="/2019/06/18/aws-s3-route53">独自ドメインを使用してS3上の静的ウェブサイトをRoute53を使用し公開する</a>
     </h2>
     <section class="post-excerpt" itemprop="description">
-      <!--<p>独自ドメインを使用してS3上の静的ウェブサイトをRoute53を使用し公開する 参考Webサイト （公式）AWS実装ガイド：独自ドメインを使用して静的ウェブサイトをセットアップする 準備 公開する静的ウェブサイトのファイル 無ければAWSの公式サイトにある以下のファイルをindex.htmlとして用意 &lt;html xmlns="http://www.w3.org/1999/xhtml" &gt; &lt;head&gt; &lt;title&gt;My Website Home Page&lt;/title&gt; &lt;/head&gt; &lt;body&gt; &lt;h1&gt;Welcome to my website&lt;/h1&gt; &lt;p&gt;Now hosted on Amazon S3!&lt;/p&gt; &lt;/body&gt; &lt;/html&gt; 独自ドメイン お名前.com　などのドメイン業者より独自ドメインを取得する 取得した独自ドメインを事前にRoute53へ登録しておく 登録方法:(公式)新しいドメインの登録 手順 1. S3バケットの作成 詳しくは（公式）S3 バケットを作成する方法を参照 example.com,www.example.comの２つのバケットを作成する example.comのドメインを取得した場合に上記の２つとなる 参考にするサイトによっては取得したドメイン名と一致している必要はないとしているが、公式サイトでそのような記載がある為、一致させておいたほうが無難 イメージ バケットを作成するをクリック 名前とリージョン バケット名：ドメインと同じ名前 リージョン：アジアパシフィック東京 ※遠いと料金が高くなる場合がある為、できるだけ近い場所のリージョンを指定 オプションの設定 デフォルトのまま アクセス権限の設定 パブリックアクセスをすべてブロックのチェックを外す ※...</p>-->
-      <p><h1 id="独自ドメインを使用してs3上の静的ウェブサイトをroute53を使用し公開する">独自ドメインを使用してS3上の静的ウェブサイトをRoute53を使用し公開する</h1>
+      <!--<p>参考Webサイト （公式）AWS実装ガイド：独自ドメインを使用して静的ウェブサイトをセットアップする 準備 公開する静的ウェブサイトのファイル 無ければAWSの公式サイトにある以下のファイルをindex.htmlとして用意 &lt;html xmlns="http://www.w3.org/1999/xhtml" &gt; &lt;head&gt; &lt;title&gt;My Website Home Page&lt;/title&gt; &lt;/head&gt; &lt;body&gt; &lt;h1&gt;Welcome to my website&lt;/h1&gt; &lt;p&gt;Now hosted on Amazon S3!&lt;/p&gt; &lt;/body&gt; &lt;/html&gt; 独自ドメイン お名前.com　などのドメイン業者より独自ドメインを取得する 取得した独自ドメインを事前にRoute53へ登録しておく 登録方法:(公式)新しいドメインの登録 手順 1. S3バケットの作成 詳しくは（公式）S3 バケットを作成する方法を参照 example.com,www.example.comの２つのバケットを作成する example.comのドメインを取得した場合に上記の２つとなる 参考にするサイトによっては取得したドメイン名と一致している必要はないとしているが、公式サイトでそのような記載がある為、一致させておいたほうが無難 イメージ バケットを作成するをクリック 名前とリージョン バケット名：ドメインと同じ名前 リージョン：アジアパシフィック東京 ※遠いと料金が高くなる場合がある為、できるだけ近い場所のリージョンを指定 オプションの設定 デフォルトのまま アクセス権限の設定 パブリックアクセスをすべてブロックのチェックを外す ※ webサイトとして使用するバケットの為...</p>-->
+      <p><ul>
+  <li>
+    <p>参考Webサイト</p>
 
-<h2 id="参考webサイト">参考Webサイト</h2>
-
-<ul>
-  <li><a href="https://docs.aws.amazon.com/ja_jp/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html">（公式）AWS実装ガイド：独自ドメインを使用して静的ウェブサイトをセットアップする</a></li>
+    <ul>
+      <li><a href="https://docs.aws.amazon.com/ja_jp/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html">（公式）AWS実装ガイド：独自ドメインを使用して静的ウェブサイトをセットアップする</a></li>
+    </ul>
+  </li>
 </ul>
 
 <hr />
@@ -400,22 +402,25 @@
       <a class="post-link" href="/2019/06/18/aws-cloud9-jekyll">AWSCloud9 を 使用しての jekyll で静的ページの開設</a>
     </h2>
     <section class="post-excerpt" itemprop="description">
-      <!--<p>AWSCloud9 を 使用しての jekyll で静的ページの開設 参考Webサイト 参考Qiita:AWS cloud9でjekyll開発 参考:Running Jekyll on Cloud9 AWS公式:AWS Cloud9 の特徴 jekyll公式 手順 jekyllのインストール $ cd username.github.io/ $ gem install jekyll $ gem install jekyll bundler Ruby関連ツールのインストール $ gem install bundler $ gem install concurrent-ruby サイトの作成 $ jekyll new mylog 実行 ローカル実行 $ cd myblog $...</p>-->
-      <p><h1 id="awscloud9-を-使用しての-jekyll-で静的ページの開設">AWSCloud9 を 使用しての jekyll で静的ページの開設</h1>
+      <!--<p>参考Webサイト 参考Qiita:AWS cloud9でjekyll開発 参考:Running Jekyll on Cloud9 AWS公式:AWS Cloud9 の特徴 jekyll公式 手順 jekyllのインストール $ cd username.github.io/ $ gem install jekyll $ gem install jekyll bundler Ruby関連ツールのインストール $ gem install bundler $ gem install concurrent-ruby サイトの作成 $ jekyll new mylog 実行 ローカル実行 $ cd myblog $ bundle exec jekyll serve Configuration...</p>-->
+      <p><ul>
+  <li>
+    <p>参考Webサイト</p>
 
-<h2 id="参考webサイト">参考Webサイト</h2>
-<ul>
-  <li>
-    <p><a href="https://qiita.com/walrein/items/40796eb036eaa3248871">参考Qiita:AWS cloud9でjekyll開発</a></p>
-  </li>
-  <li>
-    <p><a href="https://www.jflh.ca/2016-01-18-running-jekyll-on-cloud9">参考:Running Jekyll on Cloud9</a></p>
-  </li>
-  <li>
-    <p><a href="https://aws.amazon.com/jp/cloud9/details/">AWS公式:AWS Cloud9 の特徴</a></p>
-  </li>
-  <li>
-    <p><a href="https://jekyllrb.com/">jekyll公式</a></p>
+    <ul>
+      <li>
+        <p><a href="https://qiita.com/walrein/items/40796eb036eaa3248871">参考Qiita:AWS cloud9でjekyll開発</a></p>
+      </li>
+      <li>
+        <p><a href="https://www.jflh.ca/2016-01-18-running-jekyll-on-cloud9">参考:Running Jekyll on Cloud9</a></p>
+      </li>
+      <li>
+        <p><a href="https://aws.amazon.com/jp/cloud9/details/">AWS公式:AWS Cloud9 の特徴</a></p>
+      </li>
+      <li>
+        <p><a href="https://jekyllrb.com/">jekyll公式</a></p>
+      </li>
+    </ul>
   </li>
 </ul>
 

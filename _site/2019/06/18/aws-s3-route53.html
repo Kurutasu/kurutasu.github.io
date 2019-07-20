@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>独自ドメインを使用してS3上の静的ウェブサイトをRoute53を使用し公開する</title>
-  <meta name="description" content="独自ドメインを使用してS3上の静的ウェブサイトをRoute53を使用し公開する参考Webサイト  （公式）AWS実装ガイド：独自ドメインを使用して静的ウェブサイトをセットアップする準備公開する静的ウェブサイトのファイル  無ければAWSの公式サイトにある以下のファイルをindex.htmlとして用意&lt;htm...">
+  <meta name="description" content="      参考Webサイト          （公式）AWS実装ガイド：独自ドメインを使用して静的ウェブサイトをセットアップする      準備公開する静的ウェブサイトのファイル  無ければAWSの公式サイトにある以下のファイルをindex.htmlとして用意&lt;html xmlns="http://www...">
   
   <meta name="author" content="kurutasu">
   <meta name="copyright" content="&copy; kurutasu 2019">
@@ -51,12 +51,12 @@
 
   
   <!-- Facebook OGP cards -->
-  <meta property="og:description" content="独自ドメインを使用してS3上の静的ウェブサイトをRoute53を使用し公開する参考Webサイト  （公式）AWS実装ガイド：独自ドメインを使用して静的ウェブサイトをセットアップする準備公開する静的ウェブサイトのファイル  無ければAWSの公式サイトにある以下のファイルをindex.htmlとして用意&lt;htm..." />
-  <meta property="og:url" content="http://localhost:8080" />
+  <meta property="og:description" content="      参考Webサイト          （公式）AWS実装ガイド：独自ドメインを使用して静的ウェブサイトをセットアップする      準備公開する静的ウェブサイトのファイル  無ければAWSの公式サイトにある以下のファイルをindex.htmlとして用意&lt;html xmlns="http://www..." />
+  <meta property="og:url" content="http://0.0.0.0:8080" />
   <meta property="og:site_name" content="kurutasu memo" />
   <meta property="og:title" content="独自ドメインを使用してS3上の静的ウェブサイトをRoute53を使用し公開する" />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="http://localhost:8080/assets/logo.png" />
+  <meta property="og:image" content="http://0.0.0.0:8080/assets/comparing-tcp-algorithms.png" />
   <meta property="og:image:type" content="image/png" />
   <meta property="og:image:width" content="612" />
   <meta property="og:image:height" content="605" />
@@ -66,17 +66,17 @@
   <!-- Twitter: card tags -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="独自ドメインを使用してS3上の静的ウェブサイトをRoute53を使用し公開する">
-  <meta name="twitter:description" content="独自ドメインを使用してS3上の静的ウェブサイトをRoute53を使用し公開する参考Webサイト  （公式）AWS実装ガイド：独自ドメインを使用して静的ウェブサイトをセットアップする準備公開する静的ウェブサイトのファイル  無ければAWSの公式サイトにある以下のファイルをindex.htmlとして用意&lt;htm...">
-  <meta name="twitter:image" content="http://localhost:8080/assets/logo.png">
-  <meta name="twitter:url" content="http://localhost:8080">
+  <meta name="twitter:description" content="      参考Webサイト          （公式）AWS実装ガイド：独自ドメインを使用して静的ウェブサイトをセットアップする      準備公開する静的ウェブサイトのファイル  無ければAWSの公式サイトにある以下のファイルをindex.htmlとして用意&lt;html xmlns="http://www...">
+  <meta name="twitter:image" content="http://0.0.0.0:8080/assets/comparing-tcp-algorithms.png">
+  <meta name="twitter:url" content="http://0.0.0.0:8080">
   
 
   
 
   <!-- Site styles -->
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:8080/2019/06/18/aws-s3-route53">
-  <link rel="alternate" type="application/rss+xml" title="kurutasu memo" href="http://localhost:8080/feed.xml" />
+  <link rel="canonical" href="http://0.0.0.0:8080/2019/06/18/aws-s3-route53">
+  <link rel="alternate" type="application/rss+xml" title="kurutasu memo" href="http://0.0.0.0:8080/feed.xml" />
 </head>
 
 
@@ -130,8 +130,8 @@
     <div class="page-content">
         <div class="post">
 
-<div class="post-header-container " >
-  <div class="scrim ">
+<div class="post-header-container has-cover" style="background-image: url(/assets/comparing-tcp-algorithms.png);">
+  <div class="scrim has-cover">
     <header class="post-header">
       <h1 class="title">独自ドメインを使用してS3上の静的ウェブサイトをRoute53を使用し公開する</h1>
       <!--<p class="info">by <strong></strong></p>-->
@@ -141,11 +141,7 @@
 
 <div class="wrapper">
 
- <span class="page-divider">
-  <span class="one"></span>
-  <span class="two"></span>
-</span>
- 
+
 
 <section class="post-meta">
   <div class="post-date">June 18, 2019</div>
@@ -159,12 +155,14 @@
 </section>
 
 <article class="post-content">
-  <h1 id="独自ドメインを使用してs3上の静的ウェブサイトをroute53を使用し公開する">独自ドメインを使用してS3上の静的ウェブサイトをRoute53を使用し公開する</h1>
+  <ul>
+  <li>
+    <p>参考Webサイト</p>
 
-<h2 id="参考webサイト">参考Webサイト</h2>
-
-<ul>
-  <li><a href="https://docs.aws.amazon.com/ja_jp/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html">（公式）AWS実装ガイド：独自ドメインを使用して静的ウェブサイトをセットアップする</a></li>
+    <ul>
+      <li><a href="https://docs.aws.amazon.com/ja_jp/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html">（公式）AWS実装ガイド：独自ドメインを使用して静的ウェブサイトをセットアップする</a></li>
+    </ul>
+  </li>
 </ul>
 
 <hr />
@@ -404,7 +402,7 @@
   
     
     
-      <a href="//twitter.com/share?text=%E7%8B%AC%E8%87%AA%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%97%E3%81%A6S3%E4%B8%8A%E3%81%AE%E9%9D%99%E7%9A%84%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B5%E3%82%A4%E3%83%88%E3%82%92Route53%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%97%E5%85%AC%E9%96%8B%E3%81%99%E3%82%8B&url=http%3A%2F%2Flocalhost%3A8080%2F2019%2F06%2F18%2Faws-s3-route53&via=kurutasu"
+      <a href="//twitter.com/share?text=%E7%8B%AC%E8%87%AA%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%97%E3%81%A6S3%E4%B8%8A%E3%81%AE%E9%9D%99%E7%9A%84%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B5%E3%82%A4%E3%83%88%E3%82%92Route53%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%97%E5%85%AC%E9%96%8B%E3%81%99%E3%82%8B&url=http%3A%2F%2F0.0.0.0%3A8080%2F2019%2F06%2F18%2Faws-s3-route53&via=kurutasu"
         onclick="window.open(this.href, 'twitter-share', 'width=550,height=255');return false;">
         <i class="fa fa-twitter-square fa-lg"></i>
       </a>

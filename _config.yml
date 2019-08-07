@@ -126,6 +126,13 @@ social:
     desc: Follow me on Qiita
     share: false
 
+  - name: BookMeter
+    icon: space-shuttle
+    username: kurutasu
+    url: https://bookmeter.com/users/985629
+    desc: Add me on BookMeter
+    share: false
+
 #  - name: Kaggle
 #    icon: space-shuttle
 #    username: kaggle.com/haltaro

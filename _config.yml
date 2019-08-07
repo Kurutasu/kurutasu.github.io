@@ -100,7 +100,7 @@ highlightjs_theme: "zenburn"
 social:
   - name: Twitter
     icon: twitter
-    username: kurutasu
+    username: twitter.com/kurutasu
     url: https://twitter.com/kurutasu
     desc: Follow me on Twitter
     share: true
@@ -128,7 +128,7 @@ social:
 
   - name: BookMeter
     icon: space-shuttle
-    username: kurutasu
+    username: bookmeter.com/kurutasu
     url: https://bookmeter.com/users/985629
     desc: Add me on BookMeter
     share: false

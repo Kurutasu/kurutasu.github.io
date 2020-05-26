@@ -8,6 +8,8 @@ categories:
 
 AWSCloud9を使用してjekyllの静的ページを修正したいと考え、手順をまとめておく.
 
+
+
 参考Webサイト
 
 - [参考Qiita:AWS cloud9でjekyll開発](https://qiita.com/walrein/items/40796eb036eaa3248871)

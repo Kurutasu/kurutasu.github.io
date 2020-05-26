@@ -4,7 +4,9 @@ title:  "AWSCloud9 を 使用しての jekyll で静的ページの開設"
 categories: AWS jekyll
 ---
 
-* 参考Webサイト
+AWSCloud9を使用してjekyllの静的ページを修正したいと考え、手順をまとめておく
+
+# 参考Webサイト
 
     * [参考Qiita:AWS cloud9でjekyll開発](https://qiita.com/walrein/items/40796eb036eaa3248871)
 
@@ -14,7 +16,6 @@ categories: AWS jekyll
 
     * [jekyll公式](https://jekyllrb.com/)
 
----
 
 # 手順
 

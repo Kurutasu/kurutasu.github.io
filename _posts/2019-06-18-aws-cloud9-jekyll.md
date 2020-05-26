@@ -6,6 +6,16 @@ categories: AWS jekyll
 
 AWSCloud9を使用してjekyllの静的ページを修正したいと考え、手順をまとめておく.
 
+# 参考Webサイト
+
+* [参考Qiita:AWS cloud9でjekyll開発](https://qiita.com/walrein/items/40796eb036eaa3248871)
+
+* [参考:Running Jekyll on Cloud9](https://www.jflh.ca/2016-01-18-running-jekyll-on-cloud9)
+
+* [AWS公式:AWS Cloud9 の特徴](https://aws.amazon.com/jp/cloud9/details/)
+
+* [jekyll公式](https://jekyllrb.com/)
+
 # 手順
 
 ## jekyllのインストール

@@ -4,7 +4,6 @@ title:  "JAWS-UG AWS認定ソリューションアーキテクトのサンプル
 categories: AWS jaws-ug
 ---
 
-# 問題
 AWS認定ソリューションアーキテクトのサンプル試験問題
 
 # 資格について

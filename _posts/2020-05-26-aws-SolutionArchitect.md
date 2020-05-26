@@ -6,7 +6,7 @@ categories:
 - AWSソリューションアーキテクト
 ---
 
-# **IAM**
+# **AWS Identity and Access Management (IAM) の概要**
 
 # 責任共有モデル
 

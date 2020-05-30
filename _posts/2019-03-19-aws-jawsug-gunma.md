@@ -1,7 +1,9 @@
 ---
 layout: post
 title:  "JAWS-UG AWS認定ソリューションアーキテクトのサンプル試験問題"
-categories: AWS jaws-ug
+categories: 
+- AWS 
+- jaws-ug
 ---
 
 AWS認定ソリューションアーキテクトのサンプル試験問題

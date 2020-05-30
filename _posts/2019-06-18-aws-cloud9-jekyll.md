@@ -79,4 +79,4 @@ $ bundle exec jekyll serve
 
 * 下記のようなイメージのサイトが生成される
 
-![]({{site.baseurl}}/assets/posts/20190618_jekyll_awscloud9_01.PNG)
+![](https://lh3.googleusercontent.com/pw/ACtC-3fImkbChaq2YuPWCJxAeFyLQAh-GxxaVUiEa9EnzDNRguuemPpy4_KiAL8bAQLVX5DBvkNb7TZK6ms_uk-1bdM0uRXJHb6GnBTGaAoY-6h89l9uFwJ0Z7sDqCNGDPYp8250euBNNyMmaGry3cjre1tW=w923-h615-no?authuser=0)

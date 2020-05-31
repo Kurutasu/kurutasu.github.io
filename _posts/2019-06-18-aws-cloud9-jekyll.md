@@ -1,6 +1,9 @@
 ---
 layout: post
 title:  "AWSCloud9 を 使用しての jekyll で静的ページの開設"
+updated: 2020-05-31
+cover:  ""
+subheadline:  "AWSCloud9を使用してjekyllの静的ページを修正したいと考え、手順をまとめておく."
 categories: 
 - AWS 
 - jekyll

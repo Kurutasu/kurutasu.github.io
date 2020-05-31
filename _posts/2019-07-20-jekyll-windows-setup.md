@@ -3,15 +3,15 @@ layout: post
 title:  "静的WebサイトジェネレータであるjekyllをWindowsにインストールする"
 updated: 2019-07-20
 cover:  "/assets/comparing-tcp-algorithms.png"
+subheadline:  "test"
+teaser: ""
 categories:
  - AWS
 ---
 
-* 参考Webサイト
+# 参考Webサイト
 
-    * [（公式）Jekyll on Windows](http://jekyllrb-ja.github.io/docs/installation/windows/)
-
----
+* [（公式）Jekyll on Windows](http://jekyllrb-ja.github.io/docs/installation/windows/)
 
 # インストール
 

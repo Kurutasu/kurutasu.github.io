@@ -2,7 +2,7 @@
 layout: post
 title:  "【試験対策】AWSソリューションアーキテクト IAMの概要"
 updated: 2020-05-31
-cover:  ""
+cover:  "/assets/cover_image.jpg"
 subheadline:  "AWSソリューションアーキテクトの試験勉強のまとめ（IAM編）"
 categories: 
 - AWS

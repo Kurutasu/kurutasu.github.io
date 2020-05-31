@@ -2,7 +2,7 @@
 layout: post
 title:  "静的WebサイトジェネレータであるjekyllをWindowsにインストールする"
 updated: 2020-05-31
-cover:  ""
+cover:  "/assets/cover_image.jpg"
 subheadline:  "jekyllをインストールした際のメモ"
 categories:
  - jekyll

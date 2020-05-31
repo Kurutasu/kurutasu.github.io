@@ -2,7 +2,7 @@
 layout: post
 title:  "JAWS-UG AWS認定ソリューションアーキテクトのサンプル試験問題"
 updated: 2020-05-31
-cover:  ""
+cover:  "/assets/cover_image.jpg"
 subheadline:  "jaws群馬支部で、AWSソリューションアーキテクトについて話題に上がった際のメモ"
 categories: 
 - AWS 

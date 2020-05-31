@@ -20,9 +20,9 @@
         autoHide: false,
         delay: 1500,
         action: [
-          //{icon: 'user-o', text: '来歴', value: 'carrier'},
-          //{icon: 'rocket', text: '趣味', value: 'hobby'},
-          //{icon: 'pencil', text: 'サイト', value: 'memotaro'}
+          {icon: 'user-o', text: '来歴', value: 'carrier'},
+          {icon: 'rocket', text: '趣味', value: 'hobby'},
+          {icon: 'pencil', text: 'サイト', value: 'memotaro'}
           ]
       });
     }).then(function(res) {
@@ -40,21 +40,16 @@
   function showCarrier() {
     botui.message.add({
       delay: 1500,
-      content: '大学では，（航空宇宙工学）を修了しました．主に，GPS衛星の異常検知について研究しました．'
+      content: '大学では，（情報工学）を専攻していました。'
     }).then(function() {
       return botui.message.add({
         delay: 2500,
-        content: '新卒で約5年間，通信会社の研究所で働きました．主に，通信制御アルゴリズムについて研究しました．'
+        content: '新卒で約7年間、地方自治体向けのシステム開発を行っている会社で働きました。'
       });
     }).then(function() {
       return botui.message.add({
         delay: 2500,
-        content: '最後の1年間は，アメリカの外資系研究所に出向しました．これまでの研究生活で，最も幸せな一年間でした．'
-      });
-    }).then(function() {
-      return botui.message.add({
-        delay: 2500,
-        content: '現在は，広告会社でデータ分析をしています．'
+        content: '現在は，コンサルティング会社でシステムコンサルタントをしています。'
       });
     }).then(askEnd);
   }
@@ -63,16 +58,11 @@
   function showHobby() {
     botui.message.add({
       delay: 1500,
-      content: '趣味はジョギングです．今年の目標は，ハーフマラソンに出場することです．'
+      content: '趣味は投資です。最近始めました。'
     }).then(function() {
       return botui.message.add({
         delay: 2500,
-        content: 'また，日曜プログラマとして，C++，Python，JavaScript，Rなどで遊んでいます．'
-      });
-    }).then(function() {
-      return botui.message.add({
-        delay: 2500,
-        content: 'Machine learningや，Marketing scienceや，Network engineeringに興味があります．詳細はProjectsをご参照ください．'
+        content: 'また、2020年2月に子供が生まれました。妻と一緒に子育て奮闘中です。'
       });
     }).then(askEnd);
   }
@@ -81,21 +71,16 @@
   function showMemotaro() {
     botui.message.add({
       delay: 1500,
-      content: 'このウェブサイトには，日記以上かつQiita未満な技術的メモを書く予定です．'
+      content: 'このウェブサイトには，日記以上かつQiita未満なメモやを書く予定です。'
     }).then(function(){
       return botui.message.add({
         delay: 2000,
-        content: '想定読者は私自身です．'
+        content: '想定読者は私自身です。'
       });
     }).then(function(){
       return botui.message.add({
         delay: 2000,
-        content: 'Categoriesには，各記事をカテゴリごとにまとめています．'
-      });
-    }).then(function(){
-      return botui.message.add({
-        delay: 2000,
-        content: 'Projectsには，これまで作成したプロジェクトをまとめています．'
+        content: 'Categoriesには，各記事をカテゴリごとにまとめています。'
       });
     }).then(function(){
       return botui.message.add({

@@ -1,0 +1,120 @@
+---
+layout: post
+title:  "【子育て・投資】学資の検討"
+updated: 2020-08-29
+cover:  "/assets/cover_image.jpg"
+subheadline:  "赤ちゃんの学資に関して考えたこと"
+categories: 
+- 子育て
+- 投資
+---
+
+# 赤ちゃんの学資に関して考えたこと
+
+## 学費は果たしていくらかかるのか？
+
+* 幼稚園から大学までの進路別学費合計を調べることとした。
+
+    ![01_大学までの学資](https://lh3.googleusercontent.com/pw/ACtC-3fD0dK0506loMgBvpeSqDa3GX1AymBEABWd-sPpZ1eeW5OamZi0M6u-MX-B9Um7ijO0KnkVp6THEMznLMM1rUqYgPjDFBxZ9ffQQdlzMvvk2Jc3a0Qw3vDx9cRNE7-OQtI8vphVJGtiSv5KwyRpMGrA=w824-h555-no?authuser=0 "幼稚園～大学までの進路別学費合計")
+
+    出典：[文部科学省「子供の学習費調査」(平成30年度)](https://www.mext.go.jp/b_menu/toukei/chousa03/gakushuuhi/kekka/k_detail/mext_00102.html)
+    
+    出典：[日本政策金融公庫「教育費負担の実態調査」（2019年度）](https://www.jfc.go.jp/n/findings/kyoiku_kekka_m_index.html)
+
+    * 全て公立で約1,000万円、全て私立では約2,500万円かかる。
+
+    * 自分たちの子供は保育園、小学校、中学校は公立、高校は可能であれば公立に行ってほしいが、私立に行く可能性を考えると赤枠の箇所となる。
+
+    * 保育料無料、高校の授業料が無料となっていることから教育費としては1000万はかからないかもしれない。
+    
+    * 大きなお金が必要になるのは大学費用である。大学は教育費以外に、大学の入試費用、一人暮らし費用と考えると大学時代に備えて子供1人につき1000万は用意しておきたい。
+
+## 学資の準備としてどのような物が使えるか
+
+* まとまったお金が必要となる時まで時間（約18年）がある為、お金を運用して賢く準備したいと考えた。
+
+* シミュレーションを使用し、投資金額に対する見込み金額を確認する。
+
+    [金融庁シミュレーション](https://www.fsa.go.jp/policy/nisa2/moneyplan_sim/index.html)
+
+    [アセットマネジメントOne](http://www.am-one.co.jp/shisankeisei/simulation.html)
+
+* 運用してお金を増やす方法として以下の方法を検討した。
+
+1. 保険
+
+    従来からある学資保険は、利益を期待できるような商品は無く、外貨建ての生命保険で代用することを検討した。
+
+    * 外貨建ての生命保険
+
+        【選定ポイント】
+
+        * 期間を決めた払込型である
+
+        * 解約払戻金のリターンが固定されている
+
+        |保険会社|保険商品名|リターン|為替手数料|
+        |:--:|:--:|:--:|:--:|
+        |MetLife|[USドル建終身保険ドルスマート S](https://www.metlife.co.jp/products/life/iswl-dollar/)|払込後3%/年を保障<br>（試算表では20年後124%）|片道50銭/ドル|
+        |オリックス生命保険|[米ドル終身保険キャンドル](https://www.orixlife.co.jp/life/candle/)|未記載<br>（試算表では20年後125%）|片道1銭/ドル|
+
+        【懸念事項】
+
+        1. 為替手数料が想像以上に高い
+
+        【確認事項】
+
+        1. 投資期間とリターンは妥当なのか
+
+        1. 保険屋はどこで利益をあげているのか
+
+       
+1. 投資
+
+    * 株式投資
+        
+       【調査内容】
+
+        株式投資でどれ程のリターンが得られるのか。
+
+       【参考書籍】
+        
+        [ウォール街のランダムウォーカー](https://www.amazon.co.jp/%E3%82%A6%E3%82%A9%E3%83%BC%E3%83%AB%E8%A1%97%E3%81%AE%E3%83%A9%E3%83%B3%E3%83%80%E3%83%A0%E3%83%BB%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AB%E3%83%BC-%E5%8E%9F%E8%91%97%E7%AC%AC12%E7%89%88-%E6%A0%AA%E5%BC%8F%E6%8A%95%E8%B3%87%E3%81%AE%E4%B8%8D%E6%BB%85%E3%81%AE%E7%9C%9F%E7%90%86-%E3%83%90%E3%83%BC%E3%83%88%E3%83%B3%E3%83%BB%E3%83%9E%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%AB/dp/453235823X)
+
+        【調査結果】
+
+        * 株式投資の教科書といえる上記書籍に以下のような図が掲載されている。
+
+        ![03_米国株年平均リターン](https://lh3.googleusercontent.com/pw/ACtC-3c2pf92V5ZJEEwHnxf5Y8HiyDrsSDA8Q3Ckum0IQfUthlk9EraJS5KiCfVJV1LOu1bsuu0qXN8JLjG5IedlEwMRfRlR2xBQIxCPgQBuTIFSHxNd0vPM9XddCZk3hHBMqPyvIYVuiHoSa5fuXL92mHFc=w681-h665-no?authuser=0 "米国株式投資の投資期間と年平均リターンの散らばり方（1950年～2009年")
+
+        * 未来は不明瞭な部分もあるが、過去実績からすると株式投資を行う場合、20年で最低6%のリターンが期待できる。
+
+        * 長期間投資を行うことで、損する確立を限りなく低く抑えることが可能である。
+
+* 保険での運用見込みと、投資での運用見込みを比較する。
+
+    【比較前提条件】
+
+    |運用年数|払込年数|年払込額|
+    |:--:|:--:|:--:|
+    |20年|10年|50万円 <br> （月額4.16万円）|
+
+    【比較結果】
+
+    |比較対象|10年後見込額|10年後返戻率|20年後見込額|20年後返戻率|
+    |:--:|:--:|:--:|:--:|:--:|
+    |払込額累計<br>（銀行貯蓄）|500万円|100%|500万円|100%|
+    |メットライフ|458万円|92%|618万円|124%|
+    |ORIX生命|356万円|71%|624万円|125%|
+    |株積立運用<br>（年利1.5%）|543万円|108%|630万円|126%|
+    |株積立運用<br>（年利3%）|590万円|118%|793万円|158%|
+
+
+    ![02_保険投資比較](https://lh3.googleusercontent.com/pw/ACtC-3eaAxt0a_0hBSnnCe32gUkqJ5joNq2vgm3NXhCnFv0lkY2TWtYZx99Uu6FnOvpSk_v_JL2rFmCLGWL2KwnKJryz2He5ctq7lczaNIBhy_1jBfdZdSOvmxNHOHwu_gJ0ucV7jZbqRTQEkoTVzrWiBuFV=w516-h314-no?authuser=0 "生命保険と投資運用比較")
+    
+    * 保険会社で20年運用を依頼した際の解約返戻金の見込み額は自分自身で年利1.5%で運用した場合の見込み額と同程度の結果となる。
+
+## 結論
+
+* 自分自身で株式投資をし、学資の準備を行う。
+

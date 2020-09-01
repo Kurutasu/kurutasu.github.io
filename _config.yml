@@ -54,7 +54,7 @@ highlightjs_theme: "zenburn"
 #    search_only_api_key: 2aa4cae0d629ee50410d4fc8afa6b788
 
 # Google analytics
-# ga_tracking_id: "UA-XXXX-1"
+ga_tracking_id: "UA-176940505-1"
 
 # Category descriptions (for archive pages)
 #descriptions:

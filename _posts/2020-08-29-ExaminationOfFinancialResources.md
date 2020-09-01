@@ -3,7 +3,7 @@ layout: post
     title:  "【子育て・投資】学資の検討 part1"
 updated: 2020-08-29
 cover:  "/assets/cover_image.jpg"
-subheadline:  "学資に関して検討したこと"
+subheadline:  "株式投資・保険どっちがいいの？"
 categories: 
 - 子育て
 - 投資

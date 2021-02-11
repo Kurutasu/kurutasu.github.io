@@ -63,3 +63,5 @@ GoogleChoromeの「検証」機能（Ctrl＋Shift＋I、もしくはF12）を立
 参考
 
 [SpreadSheetでスクレイピング。Importxml他、便利な関数9+1](https://qiita.com/ktmg/items/d53440c913e20f8bb34c)
+
+[アメ株の各種指標(GoogleFinance関数、セクター名、増配年数、ForwardPER、モーニングスターレート等々)の取得方法(Google スプレッドシート編)](https://nonbiri-reinvest.net/post-851/)

@@ -28,7 +28,7 @@ permalink: "/:year/:month/:day/:title"
 
 # Build settings
 markdown: kramdown
-paginate: 5
+paginate: 6
 paginate_path: "/page:num/"
 inter_post_navigation: false
 #highlightjs_theme: "monokai-sublime"

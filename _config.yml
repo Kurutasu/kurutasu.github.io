@@ -12,7 +12,7 @@ exclude:
 # Site settings
 title: kurutasu memo
 subtitle: "Kurutasu's technical memorandum"
-email: ulow68@gmail.com
+#email: ulow68@gmail.com
 name: kurutasu
 description:
   I'm Kurutasu,  in Gunma, Japan.

@@ -5,9 +5,7 @@ updated: 2020-05-31
 cover:  "/assets/cover_image.jpg"
 subheadline:  "jaws群馬支部で、AWSソリューションアーキテクトについて話題に上がった際のメモ"
 categories: 
-- AWS 
-- AWSソリューションアーキテクト
-- jaws-ug
+- AWS
 ---
 
 # 資格について

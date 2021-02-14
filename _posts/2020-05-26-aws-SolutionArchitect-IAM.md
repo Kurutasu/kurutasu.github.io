@@ -6,7 +6,6 @@ cover:  "/assets/cover_image.jpg"
 subheadline:  "AWSソリューションアーキテクトの試験勉強のまとめ（IAM編）"
 categories: 
 - AWS
-- AWSソリューションアーキテクト
 ---
 
 # **AWS Identity and Access Management (IAM) の概要**

@@ -88,7 +88,7 @@ categories:
 
 ## 歴史
 
-### ✅ 💻[ENIAC(Electronic Numerical Integrator and Computer)](https://ja.wikipedia.org/wiki/ENIAC)
+### ✅ 💻[エニアック：ENIAC(Electronic Numerical Integrator and Computer)](https://ja.wikipedia.org/wiki/ENIAC)
 
 * 1946年、アメリカ ペンシルバニア大学。
 
@@ -116,7 +116,7 @@ categories:
 
 ### ✅ 第２次AIブーム
 
-* 💻**エキスパートシステム**が流行し、[ナレッジエンジニア](https://www.weblio.jp/content/%E3%83%8A%E3%83%AC%E3%83%83%E3%82%B8%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2)が必要とされた。
+* 💻[**エキスパートシステム**](https://ledge.ai/expert-system/)が流行し、[ナレッジエンジニア](https://www.weblio.jp/content/%E3%83%8A%E3%83%AC%E3%83%83%E3%82%B8%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2)が必要とされた。
 
     ```
     ナレッジエンジニアとは、
@@ -125,7 +125,7 @@ categories:
 
 * 日本
 
-    💻**第五世代コンピュータ**という大型プロジェクトを推進、エキスパートシステム等に取り組んだ。
+    💻**第五世代コンピュータ**という大型プロジェクトを推進、[エキスパートシステム](https://ledge.ai/expert-system/)等に取り組んだ。
 
 * 知識の蓄積・管理は大変！ということに気づく。
 
@@ -150,15 +150,19 @@ categories:
 
 ### ✅ 探索木
 
-* 幅優先探索
+* [幅優先探索](https://algoful.com/Archive/Algorithm/BFS#abut)
 
     最短距離の解が必ずわかる。すべてを記憶するためメモリ容量が必要。
 
+    すべての場合分けを記憶しながら探索する方法。最短経路を必ず見つけられるが計算容量を使用する数が多い。
+
     ![](https://upload.wikimedia.org/wikipedia/commons/b/bc/Breadth-first-tree.png)
 
-* 深さ優先探索
+* [深さ優先探索](https://algoful.com/Archive/Algorithm/DFS#abut)
 
     メモリは少なめでよいが、最短距離が必ずわかるわけではない。
+
+    一方向に掘り下げて解でなかった場合、前のステップに戻り、異なる方向を探索することを繰り返しながら買いを探す方法。計算容量を使用する数が少ない。
 
     ![](https://upload.wikimedia.org/wikipedia/commons/5/5d/Depth-first-tree.png)
 
@@ -190,25 +194,31 @@ categories:
 
         計画・戦略を修正すること。
 
-* STRIPS
+* [STRIPS](https://ja.wikipedia.org/wiki/STRIPS)
 
     * Stanford Research Institute Problem Solver
 
     * 自動計画に関する[人工知能](https://ledge.ai/artificial-intelligence/)の一種。
 
-    * 前提条件、行動、結果を記述する。
+    * 「前提条件」「行動」「結果」の3つの組み合わせで1つの動作を定義する自動計画を記述する手法。
 
-* SHRDLU
+* [SHRDLU](https://ja.wikipedia.org/wiki/SHRDLU)
 
     * 1970年、スタンフォード大学、🎩テリー・ウィノグラード。
 
     * 英語の指示により画面上の積み木を動かす。
 
-    * 成果はCycプロジェクトに引き継がれている。
+    * 成果は[Cycプロジェクト](https://ja.wikipedia.org/wiki/Cyc%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88)に引き継がれている。
 
-    * 【Youtube】SHRDLU in Action
+    * [自然言語処理](https://ledge.ai/nlp/)を行う人工知能初期の研究開発プロジェクト。テリー・ウィノグラードにより実施された。自然言語を使って積み木を動かす等の操作をすることができる。
+
+    * 【Youtube】[SHRDLU](https://ja.wikipedia.org/wiki/SHRDLU) in Action
 
         [![](https://img.youtube.com/vi/bo4RvYJYOzI/0.jpg)](https://youtu.be/bo4RvYJYOzI "SHRDLU in Action")
+
+* [テキストマイニング](https://ledge.ai/text-mining/)
+
+    * 構造化されてないテキストデータから、新しい情報を抽出する分析手法。大量のデータから情報を抽出することで、文章中の単語の使用頻度や傾向、相関関係など、様々な特徴を分析する際に用いられる。
     
 ### ✅ ボードゲーム
 
@@ -241,7 +251,7 @@ categories:
 
     ※ヒューリスティック：経験則の、試行錯誤的な
 
-### ✅ [Mini-Max法](https://ja.wikipedia.org/wiki/%E3%83%9F%E3%83%8B%E3%83%9E%E3%83%83%E3%82%AF%E3%82%B9%E6%B3%95)
+### ✅ [Mini-Max法(ミニマックス法)](https://www.webcyou.com/?p=6997)
 
 * ゲーム戦略で利用される。
 
@@ -251,15 +261,19 @@ categories:
 
 * この手法は全探索を行うため効率が悪い。
 
-### ✅ [α-β法](https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%AB%E3%83%95%E3%82%A1%E3%83%BB%E3%83%99%E3%83%BC%E3%82%BF%E6%B3%95)
+### ✅ [α-β法(アルファ・ベータ法：alpha-beta法))](https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%AB%E3%83%95%E3%82%A1%E3%83%BB%E3%83%99%E3%83%BC%E3%82%BF%E6%B3%95)
 
-* Mini-Max法の応用アルゴリズム。
+* [Mini-Max法](https://www.webcyou.com/?p=6997)の応用アルゴリズム。
 
 * 読む必要のない手を打ち切ることで高速化を図っている。
 
 * αカットは関心範囲の最小値のカット、βカットは最大値のカットを行う。
 
-### ✅ モンテカルロ法
+* [Mini-Max法](https://www.webcyou.com/?p=6997)において、無駄な探索をカットする手法の1つ。枝刈りの方法にはαカットとβカットが存在する。
+
+### ✅ [モンテカルロ法](https://xtrend.nikkei.com/atcl/contents/18/00131/00007/)
+
+* ボードゲームにおいて最善手を評価する方法の1つ。次の一手を決める際に、打てる手それぞれで何回もプレイアウトし、勝率が高かった手を選ぶという手法。
 
 * 特徴：
 
@@ -273,9 +287,9 @@ categories:
 
 ## 知識表現
 
-### ✅ 💻ELIZA（イライザ）
+### ✅ 💻[ELIZA（イライザ）](https://ja.wikipedia.org/wiki/ELIZA)
 
-* 1966年、🎩ジョセフ・ワイゼンバウム。
+* 1964年から1966年にかけて🎩ジョセフ・ワイゼンバウムによって開発された対話型ロボット。
 
 * 「人工無能」の元祖。精神科セラピストを演じた。
 
@@ -287,7 +301,9 @@ categories:
 
     ![](https://upload.wikimedia.org/wikipedia/commons/4/4e/ELIZA_conversation.jpg)
 
-## ✅ エキスパートシステム
+## ✅ [エキスパートシステム](https://ledge.ai/expert-system/)
+
+* 専門家の知識を入れ込み、その意思決定能力を誰もが使える形にするもの。知識ベースと推論エンジンにより構成される。
 
 ### ✓ 💻DENDRAL
 
@@ -300,7 +316,7 @@ categories:
     分子をイオン化し、そのm/zを測定することによってイオンや分子の質量を測定する分析法である。（引用）。
     ```
 
-### ✓ 💻マイシン（MYCIN）
+### ✓ 💻[マイシン（MYCIN）](https://ja.wikipedia.org/wiki/Mycin)
 
 * 1970年、スタンフォード大学。
 
@@ -310,7 +326,9 @@ categories:
 
 * 精度は専門医の80%に対し、69%であった。
 
-## ✅ 意味ネットワーク
+* エキスパートシステムの1つで、伝染性の血液疾患を診断し、適した薬を処方するプログラム。
+
+## ✅ [意味ネットワーク](https://ja.wikipedia.org/wiki/%E6%84%8F%E5%91%B3%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF)
 
 * semantic network
 
@@ -319,6 +337,8 @@ categories:
 * 単語同士の意味関係をネットワークによって表現する。
 
 * 概念を表す節（ノード）と、概念の意味関係を表す辺（エッジ）からなる、有向グラフまたは無向グラフである。
+
+* 知識を線で結びその関連性を表したもの。現在でもAIプロダクトの解釈性を高める為に使われることがある。セマンティックネットワークともいう。
 
     ```
     無向グラフのエッジには方向性がありません。
@@ -329,7 +349,9 @@ categories:
     ![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Semantic_Net.svg/305px-Semantic_Net.svg.png)
 
 
-## ✅ [Cycプロジェクト](https://www.cyc.com/)
+## ✅ [Cycプロジェクト:サイクプロジェクト](https://www.cyc.com/)
+
+* [wikipedia](https://ja.wikipedia.org/wiki/Cyc%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88)
 
 * 1984年、🎩ダグラス・レナート。
 
@@ -337,7 +359,11 @@ categories:
 
 * 2001年からはOpenCycとして公開されている。
 
-## [オントロジー（ontology）](https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC_(%E6%83%85%E5%A0%B1%E7%A7%91%E5%AD%A6))
+* 1984年からスタートした「すべての一般常識をコンピューターに取り込もう」というプロジェクト。
+
+## [オントロジー（ontology）](https://qiita.com/mininobu/items/bce0e0ad97ed17e0aff2)
+
+* [Wikipedia](https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC_(%E6%83%85%E5%A0%B1%E7%A7%91%E5%AD%A6))
 
 * 🎩トム・グルーバーが提唱。
 
@@ -347,11 +373,13 @@ categories:
 
 * is-a 関係（上位概念、下位概念、推移律）、part-of 関係を用いる。
 
+* 意味ネットワーク等で用いられる知識の結び付け方の規則。
+
 ### ✅ [セマンティックウェブ](https://ja.wikipedia.org/wiki/%E3%82%BB%E3%83%9E%E3%83%B3%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%83%BB%E3%82%A6%E3%82%A7%E3%83%96)
 
 * [W3C](https://d.hatena.ne.jp/keyword/W3C) の🎩ティム・バーナーズ＝リーによって提唱されたプロジェクト。
 
-* ウェブページの意味を扱うことができる「標準」や「ツール群」の開発により、ワールド・ワイド・ウェブの利便性を向上させようというもので、オントロジーを利用する。
+* ウェブページの意味を扱うことができる「標準」や「ツール群」の開発により、ワールド・ワイド・ウェブの利便性を向上させようというもので、[オントロジー](https://qiita.com/mininobu/items/bce0e0ad97ed17e0aff2)を利用する。
 
 * プロジェクトの目的は、ウェブページの閲覧という行為（データ交換）に対し、意味の疎通を付け加えることにある。
 
@@ -469,7 +497,7 @@ categories:
 
 * AlexNet（畳み込みニューラルネットワーク、CNN）を採用。
 
-* 前年度まではサポートベクターマシンが主流だったが、ここからCNNに切り替わったことになる。
+* 前年度までは[サポートベクターマシン](https://logics-of-blue.com/svm-concept/)が主流だったが、ここからCNNに切り替わったことになる。
 
 # ３．📘[人工知能](https://ledge.ai/artificial-intelligence/)分野の問題
 
@@ -477,7 +505,9 @@ categories:
 
 * ルールが決まっている問題（迷路、オセロなど）は解けても、現実世界に存在する複雑な問題は解けないという問題。
 
-# 3-2.📘[フレーム問題](https://ja.wikipedia.org/wiki/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E5%95%8F%E9%A1%8C)
+# 3-2.📘[フレーム問題](https://www.ai-gakkai.or.jp/whatsai/AItopics1.html)
+
+* [Wikipedia](https://ja.wikipedia.org/wiki/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E5%95%8F%E9%A1%8C)
 
 * 1969年、🎩ジョン・マッカーシーと🎩パトリック・ヘイズが提唱。
 
@@ -487,7 +517,7 @@ categories:
 
 * 🎩ダニエル・デネット：
 
-    考えすぎて何も解決できないロボットを例示し、フレーム問題の難しさを伝えた。
+    考えすぎて何も解決できないロボットを例示し、[フレーム問題](https://www.ai-gakkai.or.jp/whatsai/AItopics1.html)の難しさを伝えた。
 
 # 3-3.📘強いAI・弱いAI
 
@@ -505,17 +535,17 @@ categories:
 
 ### ✅ 汎用AI
 
-* フレーム問題を打ち破るAIのことで、人間のように様々な課題に対処することができる。
+* [フレーム問題](https://www.ai-gakkai.or.jp/whatsai/AItopics1.html)を打ち破るAIのことで、人間のように様々な課題に対処することができる。
 
 ### ✅ 特化型AI
 
-* フレーム問題を打ち破っていないAIのこと。
+* [フレーム問題](https://www.ai-gakkai.or.jp/whatsai/AItopics1.html)を打ち破っていないAIのこと。
 
 ## 強いAIに関する主張
 
-### ✅ 中国語の部屋
+### ✅ [中国語の部屋](https://www.ai-gakkai.or.jp/whatsai/AItopics3.html)
 
-* 🎩ジョン・サールが論文で発表した。
+* 哲学者🎩ジョン・サールによって発表された論文内で、チューリングテストの結果は何の指標にもならないという批判がされた。その論文内で発表された思考実験の名前。
 
 * 強いAIは実現不可能だという思考実験。
 
@@ -539,9 +569,9 @@ categories:
 
 * しかし、GoogleやFacebookの研究スピードでは、身体性の研究をすっ飛ばして概念獲得や意味理解ができてしまう可能性もある。
 
-# 3-5.📘シンボルグラウンディング問題
+# 3-5.📘[シンボルグラウンディング問題](https://ledge.ai/symbol_grounding_problem/)
 
-* 🎩スティーブン・ハルナッド。
+* 認知科学者の🎩スティーブン・ハルナッドにより議論されたもので、「記号とその対象がいかにして結び付くか」という問題
 
 * 記号（シンボル）と現実世界の意味はどのようにして結びつけられるのかという問題。
 
@@ -551,7 +581,7 @@ categories:
 
 * 人間が持っている知識は膨大であり、それらを獲得することは困難である。
 
-* 特にエキスパートシステムの開発において問題となった。
+* 特に[エキスパートシステム](https://ledge.ai/expert-system/)の開発において問題となった。
 
 ### ✅ ニューラル機械翻訳
 
@@ -583,13 +613,19 @@ categories:
 
 * モデルの性能は、注目すべきデータの特徴（[特徴量](https://ainow.ai/2020/07/14/225092/#i-5)）の選び方により決定づけられるが、それを人間が見つけ出すのは難しい。
 
-* 機械学習自身に発見させるアプローチを特徴表現学習という。
+* 機械学習自身に発見させるアプローチを[特徴表現学習](https://www.atmarkit.co.jp/ait/articles/1901/06/news036.html)という。
 
-# 3-7.📘[チューリングテスト](https://ja.wikipedia.org/wiki/%E3%83%81%E3%83%A5%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%BB%E3%83%86%E3%82%B9%E3%83%88)
+    * 特徴量の加工・抽出までは学習器が行うこと。ディープラーニングは特長表現学習を行う手法である。
+
+# 3-7.📘[チューリングテスト](https://ledge.ai/turing-test)
+
+* [wikipedia](https://ja.wikipedia.org/wiki/%E3%83%81%E3%83%A5%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%BB%E3%83%86%E3%82%B9%E3%83%88)
 
 * 🎩アラン・チューリングにより考案された。
 
 * ある機械が知的かどうか（人工知能であるかどうか）を判定するためのテスト。
+
+* ある対話式の機械に対し、「人間的」かどうかを判定する為のテスト。イギリスの数学者、アラン・チューリングが提案した。合格基準の一つに判定者の30%以上が対話相手を人間かコンピューターか判別つかないと判定することであり、2014年にロシアのチャットボット「ユージーン・グーツマン」が、13歳の少年という設定で初めて合格したとされる。
 
 ### ✅ ローブナーコンテスト
 
@@ -597,15 +633,15 @@ categories:
 
 * [Official Page](https://aisb.org.uk/aisb-events/)
 
-* チューリングテストの合格を目指すコンテスト。
+* [チューリングテスト](https://ledge.ai/turing-test)の合格を目指すコンテスト。
 
-# 3-8.📘シンギュラリティ（技術的特異点）
+# 3-8.📘[シンギュラリティ（技術的特異点）](https://ledge.ai/singularity/)
 
 * 🎩レイ・カーツワイルの著書で提唱された。
 
     * 2029年：[人工知能](https://ledge.ai/artificial-intelligence/)が人間よりも賢くなる
 
-    * 2045年：シンギュラリティの到来（2045年問題ともいわれる）
+    * 2045年：[シンギュラリティ](https://ledge.ai/singularity/)の到来（2045年問題ともいわれる）
 
 * 「収穫加速の法則」により「強いAI」が実現され、人間には予測不可能な変化が起こるとされている。
 
@@ -615,19 +651,21 @@ categories:
 
 * 一つの重要な発明が他の発明と結び付くことで、次の重要な発明の登場までの期間を短縮する。これによりイノベーションの速度が加速され、科学技術は直線的ではなく指数関数的に進歩するというもの。
 
-### ✓ シンギュラリティに関する発言等
+### ✓ [シンギュラリティ](https://ledge.ai/singularity/)に関する発言等
 
-* 🎩レイ・カーツワイル	
+* 🎩[レイ・カーツワイル](https://ledge.ai/ray-kurzweil/)
     
-    シンギュラリティは2045年に到来する
+    [シンギュラリティ](https://ledge.ai/singularity/)は2045年に到来する
+
+    2045年には人間が自分自身よりも賢い人工知能を作り出すことにより起きる技術的特異点のこと。
 
 * 🎩ヒューゴ・デ・ガリス
 
-    シンギュラリティは21世紀の後半に来る
+    [シンギュラリティ](https://ledge.ai/singularity/)は21世紀の後半に来る
 
 * 🎩オレン・エツィオーニ
 
-    シンギュラリティの終末論的構想は馬鹿げている
+    [シンギュラリティ](https://ledge.ai/singularity/)の終末論的構想は馬鹿げている
 
 * 🎩ヴィーナー・ヴィンジ
 
@@ -641,23 +679,35 @@ categories:
 
     危機感を持ち非営利のAI研究組織 OpenAI を設立。
 
-    OpenAI Gym（強化学習のシミュレーション環境）を発表。
+    OpenAI Gym（[強化学習](https://ledge.ai/reinforcement-learning/)のシミュレーション環境）を発表。
 
 # ４．📘機械学習の具体的手法
 
 # 4-1.📘代表的な手法
 
-## ✅ 教師あり学習
+## ✅ [教師あり学習](https://ledge.ai/unsupervised/)
+
+* 正解データを適切に予測できるように、正解データとその他の変数のセットを学習する枠組み。この時、正解データは目的変数、その他の変数は説明変数もしくは特徴量と呼ばれる。また、予測値が連続な場合を回帰、不連続な場合を分類という。
 
 ### ✓ 回帰問題
 
-* [線形回帰 (linear regression)](https://ja.wikipedia.org/wiki/%E7%B7%9A%E5%BD%A2%E5%9B%9E%E5%B8%B0)
+* [線形回帰 (linear regression)](https://www.ibm.com/jp-ja/analytics/learn/linear-regression)
+
+    [Wikipedia](https://ja.wikipedia.org/wiki/%E7%B7%9A%E5%BD%A2%E5%9B%9E%E5%B8%B0)
+
+    [![](https://img.youtube.com/vi/zo8BmIGSO2Y/0.jpg)](https://youtu.be/zo8BmIGSO2Y "【機械学習】線形回帰（前編）| 線形回帰の理論")
+
+    線や平面、超平面で関数をデータにフィッティングさせることで回帰を行う手法
 
     ![](https://upload.wikimedia.org/wikipedia/commons/b/be/Normdist_regression.png)
 
     * 統計学における回帰分析の一種。
 
-    * 特徴：通常の線形回帰は過学習を起こしやすい。ラッソ回帰やリッジ回帰で過学習を抑制する。
+    * 特徴：通常の[線形回帰](https://www.ibm.com/jp-ja/analytics/learn/linear-regression)は過学習を起こしやすい。ラッソ回帰やリッジ回帰で過学習を抑制する。
+
+* [アノテーション](https://ledge.ai/annotation/)
+
+    あるデータに対して関連する情報（メタデータ）を注釈として付与すること。転じて、AI業界では、機械学習のモデルに学習させるための教師データ（正解データ、ラベル）を作成することを指す。
 
 * 回帰分析の種類
 
@@ -665,15 +715,17 @@ categories:
     
     * 重回帰分析 ： 複数の説明変数から、ひとつの目的変数を予測する。
 
-        + 多重共線性 ： 説明変数の選択において、相関係数の絶対値が最大値に近い[特徴量](https://ainow.ai/2020/07/14/225092/#i-5)のペアを選ぶと、予測の精度が悪化する性質。
+        * 多重共線性 ： 説明変数の選択において、相関係数の絶対値が最大値に近い[特徴量](https://ainow.ai/2020/07/14/225092/#i-5)のペアを選ぶと、予測の精度が悪化する性質。
 
-+ [ラッソ回帰 (lasso regression)](https://ja.wikipedia.org/wiki/%E3%83%A9%E3%83%83%E3%82%BD%E5%9B%9E%E5%B8%B0)
+* [ラッソ回帰：Lasso回帰 (lasso regression)](https://aizine.ai/ridge-lasso-elasticnet/#toc8)
 
-    * 直線回帰に正則化項（L1ノルム）を加えた回帰分析。
+    [Wikipedia](https://ja.wikipedia.org/wiki/%E3%83%A9%E3%83%83%E3%82%BD%E5%9B%9E%E5%B8%B0)
 
-* リッジ回帰 (ridge regression)
+    * 直線回帰に[正則化](https://toeming.hatenablog.com/entry/2020/04/03/000925)項（L1ノルム）を加えた回帰分析。
 
-    * 直線回帰に正則化項（L2ノルム）を加えた回帰分析。
+* [リッジ回帰：Ridge回帰 (ridge regression)](https://aizine.ai/ridge-lasso-elasticnet/#toc7)
+
+    * 直線回帰に[正則化](https://toeming.hatenablog.com/entry/2020/04/03/000925)項（L2ノルム）を加えた回帰分析。
 
 * 参考資料
 
@@ -683,8 +735,12 @@ categories:
 
 ### ✓ 分類問題
 
-* ロジスティック回帰 (logistic regression)
+* [ロジスティック回帰 (logistic regression)](https://www.nli-research.co.jp/report/detail/id=62065?site=nli)
 
+    [![](https://img.youtube.com/vi/mMMzDFttZ8A/0.jpg)](https://youtu.be/mMMzDFttZ8A "【機械学習】ロジスティック回帰（前編）| ロジスティック回帰の理論と実装")
+
+    * 線形回帰の考え方を拡張し、目的変数が2クラスを取る場合等に使われる分類手法。
+    
     * 活性化関数として シグモイド関数 を使い、重回帰分析により二値分類を行う。
 
         * シグモイド関数は 対数オッズ（ロジット） の逆関数である。（ロジット変換（正規化））
@@ -715,9 +771,13 @@ categories:
 
         * AdaBoost、勾配ブースティング、XgBoost
 
-* サポートベクターマシン
+* [サポートベクターマシン：SVM](https://logics-of-blue.com/svm-concept/)
+
+    [![](https://img.youtube.com/vi/cNEhKEb9-JU/0.jpg)](https://youtu.be/cNEhKEb9-JU "【機械学習】サポートベクトルマシン（前編）|  SVMの理論、ハードマージンとソフトマージン")
 
     * コンセプトはマージンの最大化を行うこと。
+
+    * サポートベクター(サポートベクトル)を利用して予測を行う教師あり学習のモデルで、カーネル法により非線形分離を可能としている。
 
     * スラック変数
     
@@ -730,9 +790,27 @@ categories:
             [![](https://miro.medium.com/max/2400/1*mCwnu5kXot6buL7jeIafqQ.png)](https://medium.com/@zxr.nju/what-is-the-kernel-trick-why-is-it-important-98a98db0961d)
 
 
-    * カーネルトリック
+    * [カーネルトリック：カーネル法](https://punhundon-lifeshift.com/kernel_method)
 
         * 写像の際に計算が複雑にならないように式変形するテクニック。計算量を大幅に削減する。
+
+        * カーネル関数を使うことで、高次元の特徴空間における内積を行わず、入力空間でのカーネルの計算に落とし込むアプローチ。行っていることに対して、計算量が大幅に少なくて済む。
+
+* [k近傍法](https://dev.classmethod.jp/articles/2017ad_20171218_knn/)
+
+    * 回帰と分類が行える手法。分類においては、特徴量空間において距離が近い順に任意のk個を取得し、多数決でデータが属するクラスを推定する。
+
+    [![](https://img.youtube.com/vi/4Vk1UhRDB34/0.jpg)](https://youtu.be/4Vk1UhRDB34 "【機械学習】機械学習入門 / k最近傍法 | 機械学習の手順と基本的なアルゴリズム")
+
+* [ニアレストネイバー法：最近傍法](https://ledge.ai/machine-learning/)
+
+    * 求めたい要素からもっとも近い既存データが属する集団に分類する、機械学習のアルゴリズムの1つ。すべての要素までの距離を計算しなければならない為、データ量が大きくなるにつれ、膨大な数の計算が必要となる。その為、計算機の性能により、データ量が制限されてしまう欠点がある。
+
+* [決定木](https://cacoo.com/ja/blog/what-is-decision-tree/)
+
+    * 木構造を用いて回帰や分類を行う手法で解釈性の高さが特徴。
+
+    [![](https://img.youtube.com/vi/irTbuevXauk/0.jpg)](https://youtu.be/irTbuevXauk "【機械学習】決定木（CART）| 決定木の理論と実装")
 
 * ニューラルネットワーク
 
@@ -740,9 +818,11 @@ categories:
 
         ニューロン、神経回路、単純パーセプトロン、多層パーセプトロン、入力層、出力層、重み、隠れ層、活性化関数、シグモイド関数、誤差逆伝播法
 
-    * ロジスティック回帰はニューラルネットワークの一種。（単純パーセプトロンと同等）
+    * [ロジスティック回帰]((https://www.nli-research.co.jp/report/detail/id=62065?site=nli))はニューラルネットワークの一種。（単純パーセプトロンと同等）
 
-## ✅ 教師なし学習
+## ✅ [教師なし学習](https://ledge.ai/unsupervised)
+
+* 正解を参照せずに変数同士の構造やパターンを抽出する枠組み。クラスタリングや次元削減等は[教師なし学習](https://ledge.ai/unsupervised)に該当する。
 
 * k-means法
 
@@ -750,7 +830,7 @@ categories:
 
         * 課題：クラスタリングを行う処理の初期値の取り方により結果が異なる。（偏りが生じる）
 
-        * kNN法はクラス分類（教師あり学習）の手法なので注意！
+        * kNN法はクラス分類（[教師あり学習](https://ledge.ai/unsupervised/)）の手法なので注意！
 
 * k-means++
 
@@ -764,7 +844,13 @@ categories:
 
     * 寄与率：各成分の重要度を表す。
 
-## ✅ 強化学習
+## ✅ [半教師あり学習](https://aizine.ai/semi-supervised-learning0619/)
+
+* 少量のラベルありデータを用いることで大量のラベルなしデータをより学習に活かせることができる学習方法。
+
+## ✅ [強化学習](https://ledge.ai/reinforcement-learning/)
+
+* 正解を与える代わりに、将来の報酬や利益を最大化するように、特定の状況下における行動を学習する枠組み。
 
 * エージェントの目的は収益（報酬・累積報酬）を最大化する方策を獲得すること。
 
@@ -836,7 +922,7 @@ categories:
 
     * 訓練データに適合しすぎており（過学習）、テストデータの精度が低下している状態。（汎化性能が低い状態）
 
-    * 訓練データにフィットしすぎないように、正則化項の導入などを行ったのち、改めて学習を行う必要がある。
+    * 訓練データにフィットしすぎないように、[正則化](https://toeming.hatenablog.com/entry/2020/04/03/000925)項の導入などを行ったのち、改めて学習を行う必要がある。
 
 * アンダーフィッティング
 
@@ -844,15 +930,17 @@ categories:
 
     * 学習をさらに進めることで改善することがある。
 
-## ✅ 正則化
+## ✅ [正則化](https://toeming.hatenablog.com/entry/2020/04/03/000925)
 
-* 訓練誤差ではなく、汎化誤差を小さくする（汎化性能を高める）ための手法。正則化項を導入することでオーバーフィッティグを防止する。
+* 訓練誤差ではなく、汎化誤差を小さくする（汎化性能を高める）ための手法。[正則化](https://toeming.hatenablog.com/entry/2020/04/03/000925)項を導入することでオーバーフィッティグを防止する。
 
 * L1正則化：ラッソ正則化（Lasso Normalization）。不要なパラメータを削減できる（ゼロにする）。この特徴をスパース性という。
 
 * L2正則化：リッジ回帰（Ridge Normalization）。Lassoと違い[特徴量](https://ainow.ai/2020/07/14/225092/#i-5)の選択は行わないが、パラメータのノルムを小さく抑えることができる（パラメータのノルムにペナルティを課す）。重み減衰（Weight Decay）ともいう。
 
-* Elastic Net：L1正則化、L2正則化を組み合わせたもの。
+* [Elastic Net](https://aizine.ai/ridge-lasso-elasticnet/#toc9)：L1正則化、L2正則化を組み合わせたもの。
+
+    * Lasso回帰とRidge回帰の折衷案で「Lasso回帰のモデルに取り込める説明変数の数に制限がある」という問題点をカバーできる手法。
 
 * 参考：[Qiita-【機械学習】ラッソ回帰・リッジ回帰について　メモ](https://qiita.com/nanairoGlasses/items/57515340a1bc24ffe445#%E3%83%A9%E3%83%83%E3%82%BD%E5%9B%9E%E5%B8%B0%E3%81%A8%E3%81%AF)
 
@@ -950,7 +1038,7 @@ categories:
 
 ## ✅ ファインチューニング
 
-* 積層オートエンコーダにロジスティック回帰層（あるいは線形回帰層）を追加し、仕上げの学習を行う。
+* 積層オートエンコーダにロジスティック回帰層（あるいは[線形回帰](https://www.ibm.com/jp-ja/analytics/learn/linear-regression)層）を追加し、仕上げの学習を行う。
 
 ## ✅ [深層信念ネットワーク](https://www.kyoritsu-pub.co.jp/ai/pdf/7-9deeplearning.pdf)
 
@@ -960,7 +1048,7 @@ categories:
 
 * 隠れ層の数が多いニューラルネットワークで、効率の良い近似学習手法を提案した。
 
-* 具体的には、教師なし学習による事前学習（制限付きボルツマンマシン）により効率的な学習を実現。
+* 具体的には、[教師なし学習](https://ledge.ai/unsupervised)による事前学習（制限付きボルツマンマシン）により効率的な学習を実現。
 
 * ※ボルツマンマシン（[参考](https://www.sist.ac.jp/~kanakubo/research/neuro/boltzmannmachine.html)）
 
@@ -1175,7 +1263,7 @@ categories:
 
 * 訓練誤差は小さいが、汎化誤差が大きい（テストデータに対する誤差が大きい）状態。
 
-* 正則化項の導入やアーリーストッピングの適用など、過学習を抑制するためのさまざまな手法が研究されている。
+* [正則化](https://toeming.hatenablog.com/entry/2020/04/03/000925)項の導入やアーリーストッピングの適用など、過学習を抑制するためのさまざまな手法が研究されている。
 
 # 6-2.📘学習率の最適化
 
@@ -1269,6 +1357,12 @@ categories:
 
 * これにより、アンサンブル学習を行っているのと同じような状況になる。
 
+* [アンサンブル学習](https://agency-star.co.jp/column/ensemble-learning/)
+
+    * 複数のモデルを合わせて、1つのモデルとして扱う手法で、「バギング」「ブースティング」「スタッキング」の3種類が存在する。
+
+    [![](https://img.youtube.com/vi/0WcrBe017-w/0.jpg)](https://youtu.be/0WcrBe017-w "【機械学習】アンサンブル学習（前編）| バギング・スタッキング・バンピング、ランダムフォレスト")
+
 ## ✅ アーリーストッピング(early stopping)
 
 * 学習を早めに打ち切ることで、ディープラーニングのオーバーフィッティング対策を行う。
@@ -1293,11 +1387,13 @@ categories:
 
     * データ を 標準積分布（平均０、分散１） にする。
 
-* 正則化（Regularization）
+* [正則化（Regularization）](https://toeming.hatenablog.com/entry/2020/04/03/000925)
 
+    * 主に過学習等を防ぎ、汎化性能を上げるために、モデルに制約を設ける手法。
+    
     * 過学習の回避を目的とする。
 
-    * 損失関数に正則化項を追加することで、値の偏りを防止する。
+    * 損失関数に[正則化](https://toeming.hatenablog.com/entry/2020/04/03/000925)項を追加することで、値の偏りを防止する。
 
 * 【注意】
 
@@ -1450,7 +1546,7 @@ categories:
 
     （畳み込み＋プーリング)×３層 の構造をとる。
 
-* VGG16（VGG・教師あり学習），GoogLeNet
+* VGG16（VGG・[教師あり学習](https://ledge.ai/unsupervised/)），GoogLeNet
 
 * AlexNetよりも深いモデルになっている。
 
@@ -1594,13 +1690,13 @@ categories:
 
 ## ✅ DQN（Deep Q-learning）
 
-* 強化学習の手法であるQ学習と深層学習の組合せ。CNNの一種である。
+* [強化学習](https://ledge.ai/reinforcement-learning/)の手法であるQ学習と深層学習の組合せ。CNNの一種である。
 
 * Q関数（＝行動価値関数）の最大化を目指す。
 
 * DeepMind ブロック崩しで採用された。
 
-    [![](https://img.youtube.com/vi/TmPfTpjtdgg/0.jpg)](https://youtu.be/TmPfTpjtdgg "SHRDLU in Action")
+    [![](https://img.youtube.com/vi/TmPfTpjtdgg/0.jpg)](https://youtu.be/TmPfTpjtdgg "DeepMind ブロック崩し")
 
 * 改良モデル：Double DQN, Dueling Network, Categorical DQN, Rainbow
 
@@ -1952,9 +2048,9 @@ categories:
 
 * 1990年代では、隠れマルコフモデル（HMM）による音の判別モデルと、Nグラム法による語と語のつながりを判別する言語モデルでできていた。
 
-# 7-4.📘ロボティクス （強化学習）
+# 7-4.📘ロボティクス （[強化学習](https://ledge.ai/reinforcement-learning/)）
 
-* 動作制御にはモンテカルロ法やQ学習が応用されている。
+* 動作制御には[モンテカルロ法](https://xtrend.nikkei.com/atcl/contents/18/00131/00007/)やQ学習が応用されている。
 
 * DQN（Deep Q Networks） アタリのゲームに対して応用された。
 
@@ -1962,7 +2058,7 @@ categories:
 
 * アルファ碁ゼロ セルフプレイにより学習を進め、アルファ碁を凌駕した。
 
-* RAINBOWモデル 強化学習の性能を改善するための３つのモデルをすべて適用したもの。
+* RAINBOWモデル [強化学習](https://ledge.ai/reinforcement-learning/)の性能を改善するための３つのモデルをすべて適用したもの。
 
     * 方策ベース
 
@@ -1972,7 +2068,7 @@ categories:
 
     * モデルベース
 
-## ✅ 強化学習の課題
+## ✅ [強化学習](https://ledge.ai/reinforcement-learning/)の課題
 
 * 学習時間
 

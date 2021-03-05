@@ -235,9 +235,11 @@ categories:
 
 * 2013年、💻ponanza が将棋において現役プロ棋士に勝利。
 
-* 2016年、💻AlphaGo（アルファ碁）が韓国のプロ棋士に勝利。
+* 2016年、💻[AlphaGo（アルファ碁）](https://data.wingarc.com/alpha-go-26586)が韓国のプロ棋士に勝利。
 
     ディープラーニングが使われた。
+
+    DeepMind社が開発した深層強化学習を用いた囲碁プログラム。
 
     ![](https://tech-camp.in/note/wp-content/uploads/alphago-1024x519.png)
 
@@ -605,9 +607,11 @@ categories:
     コンピュータに学習用の対訳データを与え、統計モデルを学習させることで訳文を出力させる方法です。（引用）
     ```
 
-### ✓ seq2seq
+### ✓ [seq2seq（sequence-to-sequence）](https://blog.octopt.com/sequence-to-sequence/?utm_source=rss&utm_medium=rss&utm_campaign=sequence-to-sequence)
 
-* 再帰型ニューラルネットワーク（RNN）を使った文の生成モデル。
+* 入力となる時系列データから、時系列データを生成するタスク。代表的な構造にはRNN Encorder-Decorderモデルがある。
+
+* [再帰型ニューラルネットワーク（RNN）](https://qiita.com/kiminaka/items/87afd4a433dc655d8cfd)を使った文の生成モデル。
 
 * 時系列データを入力し、時系列データを出力する。
 
@@ -1078,7 +1082,9 @@ categories:
 
 * オートエンコーダを積み重ねて、逐次的に学習させる（事前学習）ことで重みを調整する
 
-## ✅ ファインチューニング
+## ✅ [ファインチューニング](https://www.simpletraveler.jp/2019/12/31/machinelearning-transferlearning-finetuning/#i-5)
+
+* 学習済みのネットワークを利用して。新しい問題に対するネットワークの作成に利用する際に、利用した学習済みモデルに含まれるパラメータも同時に調整する方法。
 
 * 積層オートエンコーダにロジスティック回帰層（あるいは[線形回帰](https://www.ibm.com/jp-ja/analytics/learn/linear-regression)層）を追加し、仕上げの学習を行う。
 
@@ -1321,7 +1327,19 @@ categories:
 
 # 6-2.📘[学習率](https://aidemy.net/courses/5090/exercises/HkMP93IoLlM)の最適化
 
-* 学習は、損失関数を最小にするためのパラメータを探索することが目標。
+* 学習は、[損失関数](https://ai-trend.jp/basic-study/neural-network/nn_loss_function/)を最小にするためのパラメータを探索することが目標。
+
+    * [損失関数](https://ai-trend.jp/basic-study/neural-network/nn_loss_function/)
+
+        予測と実際の値のズレの大きさを表す関数。[損失関数](https://ai-trend.jp/basic-study/neural-network/nn_loss_function/)の値が小さければより予測精度の高い正確なモデルと言える。
+
+        [![](https://img.youtube.com/vi/eZMpRzECFUM/0.jpg)](https://youtu.be/eZMpRzECFUM "【深層学習】損失関数/勾配降下法｜交差エントロピー誤差、ミニバッチ勾配降下法")
+
+    * [CTC損失関数](http://www.thothchildren.com/chapter/5c0b599041f88f26724a6d63)
+
+        Connectionist Temporal Classificationの略。音声認識等で用いられる損失関数。LSTMやRNN等でEnd-to-Endに音声認識を行う際に用いられることがある。
+
+        ![](http://img.thothchildren.com/d66f7bef-aa26-4915-bb82-57e2fdba47e4.png)
 
 * 微分（偏微分）により関数の最小値を求めたいが、多次元なので難しい。（計算量が多くなってしまう）
 
@@ -1467,7 +1485,7 @@ categories:
     
     * [過学習](https://lionbridge.ai/ja/articles/overfitting/)の回避を目的とする。
 
-    * 損失関数に[正則化](https://toeming.hatenablog.com/entry/2020/04/03/000925)項を追加することで、値の偏りを防止する。
+    * [損失関数](https://ai-trend.jp/basic-study/neural-network/nn_loss_function/)に[正則化](https://toeming.hatenablog.com/entry/2020/04/03/000925)項を追加することで、値の偏りを防止する。
 
 * 【注意】
 
@@ -1572,7 +1590,20 @@ categories:
 
 * [フィルタ（カーネル）](https://qastack.jp/stats/154798/difference-between-kernel-and-filter-in-cnn) により画像の特徴を抽出する操作。
 
-* ストライド：フィルタを移動させる刻み。
+* [パディング](https://qiita.com/nvtomo1029/items/601af18f82d8ffab551e#522%E3%83%91%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%83%89%E3%81%A7%E5%87%BA%E5%8A%9B%E3%82%B5%E3%82%A4%E3%82%BA%E3%82%92%E8%AA%BF%E6%95%B4%E3%81%99%E3%82%8B)
+
+    畳み込み処理前に画像に余白となるような部分を追加し、畳み込み処理後の特徴マップのサイズを調整するもの。
+
+    ![](https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.amazonaws.com%2F0%2F70897%2F7c2de1fc-ca68-699f-3ac5-d927a0ae52c5.png?ixlib=rb-1.2.2&auto=format&gif-q=60&q=75&w=1400&fit=max&s=7449b6ecb7068141078c41cc25b2a227)
+
+    上記の例では(4, 4)のサイズの入力データに対して、幅1のパディング(網掛けの部分)を適用している。
+    
+    入力データが(4, 4)のサイズに(3, 3)のフィルターを適用すると、出力サイズは(2, 2)となるが、幅1のパディングを適用することで出力サイズは(4, 4)となる。
+
+
+* [ストライド](https://qiita.com/nvtomo1029/items/601af18f82d8ffab551e#522%E3%83%91%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%83%89%E3%81%A7%E5%87%BA%E5%8A%9B%E3%82%B5%E3%82%A4%E3%82%BA%E3%82%92%E8%AA%BF%E6%95%B4%E3%81%99%E3%82%8B)
+    
+    フィルタを移動させる刻み。畳み込み処理においてカーネルを移動させる幅のこと。
 
 * フィルタを通して特徴マップを得る、フィルタの各値が重みにあたる。
 
@@ -1580,11 +1611,15 @@ categories:
 
 * パラメータ数は全結合層よりも少ない。重み共有により有用な[特徴量](https://ainow.ai/2020/07/14/225092/#i-5)を画像の位置によって大きく変化させないためである。
 
-## ✅ プーリング層
+## ✅ [プーリング](https://qiita.com/FukuharaYohei/items/73cce8f5707a353e3c3a)層
 
 * 決められた演算を行うだけの層。（ダウンサンプリング、サブサンプリング）
 
 * そのため、学習すべきパラメータはない。
+
+* 画像や特徴マップ等の入力を小さく圧縮する処理
+
+    ![](https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.amazonaws.com%2F0%2F134273%2F45c8cad3-a42f-29f6-4543-e3487da28df1.jpeg?ixlib=rb-1.2.2&auto=format&gif-q=60&q=75&w=1400&fit=max&s=2032f7d1518853bc7f75b4969c46dd55)
 
 ### ✓ maxプーリング
 
@@ -1604,9 +1639,15 @@ categories:
 
 * 最近の傾向：
 
-    * 全結合層を用いない方法が増えており、１つの特徴マップに１つのクラスを対応させる Global Average Pooling がほとんどになっている。
+    * 全結合層を用いない方法が増えており、１つの特徴マップに１つのクラスを対応させる [Global Average Pooling（GAP）](https://qiita.com/mine820/items/1e49bca6d215ce88594a) がほとんどになっている。
 
-## ✅ データ拡張
+        * [Global Average Pooling（GAP）](https://qiita.com/mine820/items/1e49bca6d215ce88594a)
+
+            分類したいクラスと特徴マップを1対1対応させ、各特徴マップに含まれる値の平均を取ることで誤差を計算できるようにする手法。
+
+## ✅ [データ拡張（Data Augmentation）](https://note.com/masayamori/n/n63caf39a4cdf)
+
+* 画像に人工的な加工を行うことでデータの種類を増やすこと。
 
 * 課題：
 
@@ -1614,13 +1655,13 @@ categories:
 
 * 対応：
 
-    * データ拡張（データの水増し）を行う。
+    * [データ拡張（データの水増し）](https://note.com/masayamori/n/n63caf39a4cdf)を行う。
 
         →　ずらす、反転、拡大・縮小、回転、歪め、切り取り、コントラスト変更 など
 
 * 注意点：
 
-    * データ拡張により意味の変わってしまう画像がある。（ex.いいねマークを逆さまにすると違う意味）
+    * [データ拡張](https://note.com/masayamori/n/n63caf39a4cdf)により意味の変わってしまう画像がある。（ex.いいねマークを逆さまにすると違う意味）
 
 ## ✅ CNNの発展形
 
@@ -1628,7 +1669,7 @@ categories:
 
     （畳み込み＋プーリング)×３層 の構造をとる。
 
-* VGG16（VGG・[教師あり学習](https://ledge.ai/unsupervised/)），GoogLeNet
+* [VGG16](https://newtechnologylifestyle.net/vgg16originalpicture/)（VGG・[教師あり学習](https://ledge.ai/unsupervised/)），[GoogLeNet](https://aizine.ai/googlenet-0802/)
 
 * AlexNetよりも深いモデルになっている。
 
@@ -1640,9 +1681,9 @@ categories:
 
     * 小さなサイズの畳み込みフィルタにより次元（計算量）を削減する。
 
-    * GoogLeNet　：　Inceptionモジュールというブロックを構成することで、並列計算を行いやすくする。
+    * [GoogLeNet](https://aizine.ai/googlenet-0802/)　：　Inceptionモジュールというブロックを構成することで、並列計算を行いやすくする。[ILSVRC](https://qiita.com/taki_tflare/items/40bd1313d85513b4b861)で2014年1位。Inceptionモジュールと呼ばれる小さなネットワークを積み上げた構造をしている。
 
-    * VGG16　：　2014年、GoogleNetに劣らない精度をたたき出した。オックスフォード大学による。
+    * [VGG16](https://newtechnologylifestyle.net/vgg16originalpicture/)　：　2014年、[GoogleNet](https://aizine.ai/googlenet-0802/)に劣らない精度をたたき出した。オックスフォード大学による。
 
 * 課題②
 
@@ -1652,7 +1693,7 @@ categories:
 
     * Skip Connection　：　層を飛び越えた結合を加える。
 
-    * ResNet
+    * [ResNet](https://deepage.net/deep_learning/2016/11/30/resnet.html)
 
         Skip Connection を導入したモデル、伝播しやすく[アンサンブル学習](https://agency-star.co.jp/column/ensemble-learning/)にもなる。
 
@@ -1662,11 +1703,19 @@ categories:
 
         2015 年の ILSVRC では人間の成績を上回る成果をあげている。
 
+        ILSVRCで2015年1位。最大152層から構成されているネットワーク。層を飛び越えた結合（Skip connection）があることが特徴。
+
     * ILSVRCのモデル推移
 
     [![](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/494282/19918227-7887-d697-f4e2-7602c64adbe9.png)](http://image-net.org/challenges/talks_2017/ILSVRC2017_overview.pdf)
 
-# 6-5.📘RNN（リカレント ニューラルネットワーク）
+    * [DenseNet](https://deepsquare.jp/2020/04/resnet-densenet/)　：　2016年に発表されたモデルで、前方の各層からの出力すべてが後方の層への入力として用いられるのが特徴で、Dense Blockと呼ばれる構造を持つ。
+
+    * [EfficietnNet](https://qiita.com/omiita/items/83643f78baabfa210ab1)　：　2019年にGoogle社から発表されたモデルで、これまで登場していたモデルよりも大幅に少ないパラメータ数でありながら、SoTA(State of The Art)を達成。モデルの深さ、広さ、入力画像の大きさをバランス良く調整しているのが特徴。
+
+# 6-5.📘[再帰型ニューラルネットワーク（RNN）](https://qiita.com/kiminaka/items/87afd4a433dc655d8cfd)
+
+* リカレントニューラルネットワーク。過去の入力による隠れ層（中間層）の状態を現在の入力に対する出力を求める為に使う構造を持ったニューラルネットワーク。
 
 * 特徴
 
@@ -1674,25 +1723,33 @@ categories:
 
     * 特徴は前回の中間層の状態を隠れ層に入力する再帰構造を取り入れたこと。
 
-    * BackPropagation Through-Time(BPTT) ： 時間軸に沿って誤差を反映していく。
+    * BackPropagation Through-Time(通時的誤差逆伝播：BPTT) ： 時間軸に沿って誤差を反映していく。過去の時系列を遡りながら、誤差を計算していく手法。
 
     * 自然言語処理でもよく用いられる。
 
-    * 再帰型ニューラルネットワークで、閉路がある。
+    * [再帰型ニューラルネットワーク](https://qiita.com/kiminaka/items/87afd4a433dc655d8cfd)で、閉路がある。
 
 * 課題　（[参考1](https://qiita.com/t_Signull/items/21b82be280b46f467d1b)、[参考2](https://sagantaf.hatenablog.com/entry/2019/06/04/225239)）
 
     * 勾配消失問題
 
-    * 入力重み衝突、出力重み衝突　：　重みが上下して精度が上がらない問題
+    * [入力重み衝突](https://itisit.hateblo.jp/entry/2019/02/24/%E3%83%AA%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%88%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%A9%E3%83%AB%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E3%81%AE%E5%8B%BE%E9%85%8D%E6%B6%88%E5%A4%B1%E5%95%8F)
+
+        現在の入力に対し過去の情報の重みは小さくなくてはならないが、将来の為に大きな重みを残しておかなければならないという矛盾が、新しいデータの特徴を取り込む時に発生すること。
+    
+    * [出力重み衝突](https://itisit.hateblo.jp/entry/2019/02/24/%E3%83%AA%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%88%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%A9%E3%83%AB%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E3%81%AE%E5%8B%BE%E9%85%8D%E6%B6%88%E5%A4%B1%E5%95%8F)
+
+        現在の入力に対し過去の情報の重みは小さくなくてはならないが、将来の為に大きな重みを残しておかなければならないという矛盾が、現在の状態を次時刻の隠れ層（中間層）へ出力する時に発生すること。
 
     * ネットワークにループ構造が含まれるため、中間層が１層でも勾配消失問題が起こる。
 
 * 解決策
 
-    * LSTM手法を使う。
+    * [LSTM](https://qiita.com/t_Signull/items/21b82be280b46f467d1b)手法を使う。
 
-## ✅ LSTM（Long Short-Term Memory）
+## ✅ [LSTM（Long Short-Term Memory）](https://qiita.com/t_Signull/items/21b82be280b46f467d1b)
+
+* Long short-term memoryの略。「CEC(Constant Error Carousel)という情報を記憶する構造」と「データの伝搬量を調整する3つのゲートを持つ構造」を持つRNNを改良したモデル。
 
 * 時系列データにおいてはデファクトスタンダード。Google翻訳でも利用されている。
 
@@ -1702,7 +1759,7 @@ categories:
 
 * 活性化関数の工夫ではなく、隠れ層の構造を変えることで解決する。
 
-* LSTMブロック機構を適用
+* [LSTM](https://qiita.com/t_Signull/items/21b82be280b46f467d1b)ブロック機構を適用
 
     * CEC（Constant Error Carousel）　：　誤差を内部にとどまらせ勾配消失を防ぐセル。
 
@@ -1716,17 +1773,19 @@ categories:
 
     * ゲートが多いため計算量が多い
 
-## ✅ GRU（Gated Recurrent Unit）
+## ✅ [GRU（Gated Recurrent Unit）：ゲート付き回帰型ユニット](https://agirobots.com/lstmgruentrance-noformula/)
 
-* LSTMの計算量を少なくした手法。
+* [LSTM](https://qiita.com/t_Signull/items/21b82be280b46f467d1b)の計算量を少なくした手法。
 
-* リセットゲート、更新ゲートからなる。
+* リセットゲートと交信ゲートという2つのゲートを用いた構造のブロックから構成されるモデル。
 
 ## ✅ RNNの発展形
 
-### ✓ Bidirectional RNN
+### ✓ [Bidirectional RNN（双方向RNN（BiRNN））](https://axa.biopapyrus.jp/deep-learning/rnn/brnn.html)
 
 * 未来から過去方向にも学習できるモデル。
+
+* 2つのRNNが組み合わさった構造をしており、一方はデータを時系列通りに学習し、もう一方は時系列を逆順に並び替えて学習を行うモデル。
 
 ### ✓ RNN Encoder-Decoder
 
@@ -1740,7 +1799,9 @@ categories:
 
     * モデルはエンコーダとデコーダからなる。
 
-### ✓ Attention
+### ✓ [Attention](https://webbigdata.jp/ai/post-1521)
+
+* 入力データの一部分に注意するような重みづけを行うことで重要な情報を取り出せるようにした手法。様々な種類がある。
 
 * 他モデルの問題
 
@@ -1756,7 +1817,9 @@ categories:
 
 # その他の応用
 
-## ✅ 転移学習
+## ✅ [転移学習](https://udemy.benesse.co.jp/data-science/deep-learning/transfer-learning.html)
+
+* 学習済みのネットワークを利用して、新しい問題に対するネットワークの作成に利用する際に、付け足した（または置き換えた）層のみを学習する方法。
 
 * 学習済みのモデルを用いて追加学習を行う。
 
@@ -1780,7 +1843,7 @@ categories:
 
     [![](https://img.youtube.com/vi/TmPfTpjtdgg/0.jpg)](https://youtu.be/TmPfTpjtdgg "DeepMind ブロック崩し")
 
-* 改良モデル：Double DQN, Dueling Network, Categorical DQN, Rainbow
+* 改良モデル：Double DQN, Dueling Network, Categorical DQN, [Rainbow](https://qiita.com/shionhonda/items/ec05aade07b5bea78081)
 
 * 応用事例：AlophaGo（アルファ碁）
 
@@ -1790,9 +1853,11 @@ categories:
 
 ## ✅ 画像生成モデル
 
-### ✓ VAE（Variable AutoEncoder）
+### ✓ [VAE（Variable AutoEncoder）](https://qiita.com/kenmatsu4/items/b029d697e9995d93aa24)
 
 * 変分オートエンコーダ、変分自己符号化器
+
+* オートエンコーダに完了を加えたモデルであり、新しいデータを生成することができるモデル。画像を生成する潜在変数の分布を学習し、入力画像を平均と分散に変換する。
 
 * 変分ベイズ推定法の一種。
 
@@ -1800,7 +1865,11 @@ categories:
 
 * ランダムサンプリングしたものをデコードすると新しいデータが生成できる。
 
-### ✓ GAN（敵対的生成ネットワーク）
+### ✓ [GAN（Generative Adversarial Network）](https://ledge.ai/gan/)
+
+* 敵対的生成ネットワーク
+
+* ニューラルネットワークで深層生成モデルを構成する際の代表的なアーキテクチャの1つ。ジェネレータとディスクリミネータという敵対する目的を持つモデルを交互に学習していく。
 
 * 🎩イアン・グッドフェローが提唱。
 
@@ -1818,11 +1887,11 @@ categories:
 
 # 7-1.📘画像認識
 
-## ✅ ILSVRC（Imagenet Large Scale Visual Recognition Challenge）
+## ✅ [ILSVRC（Imagenet Large Scale Visual Recognition Challenge）](https://qiita.com/taki_tflare/items/40bd1313d85513b4b861)
 
 * 画像認識のコンペティション、課題は位置課題、検出課題の２つ。
 
-* Imagenet
+* ImageNetと呼ばれるデータを使った[画像認識](https://ledge.ai/image-recognition/)の分類精度を競う競技会。
 
     * スタンフォード大学がインターネットから収集した画像群。
 
@@ -1830,29 +1899,39 @@ categories:
 
     * 物体名は２万種以上。
 
-## ✅ AlexNet
+## ✅ [AlexNet](https://axa.biopapyrus.jp/deep-learning/cnn/image-classification/alexnet.html)
 
-* 2012年、ILSVRCで優勝したSuperVisionでのモデル。
+* 2012年、[ILSVRC](https://qiita.com/taki_tflare/items/40bd1313d85513b4b861)で優勝したSuperVisionでのモデル。
 
-* 特徴は、ReLU、SRN、データ拡張、２枚のGPU利用。
+* 特徴は、ReLU、SRN、[データ拡張](https://note.com/masayamori/n/n63caf39a4cdf)、２枚のGPU利用。
 
 * パラメータ数は６千万個にものぼった。（ディープラーニングのパラメータは多い）
 
-## ✅ R-CNN（Regional CNN）
+* [ILSVRC](https://qiita.com/taki_tflare/items/40bd1313d85513b4b861)で2012年1位。[ILSVRC](https://qiita.com/taki_tflare/items/40bd1313d85513b4b861)にて初めて深層学習の概念を取り入れたモデル。ジェフリー・ヒントン教授らのチームによって発表された。
+
+## ✅ [R-CNN（Regional CNN）](https://qiita.com/arutema47/items/8ff629a1516f7fd485f9)
 
 * 関心領域の切り出し（一課題）は従来の手法を用いて行う。
 
-    ※ **バンディングボックス**（物体検出。関心領域を表す矩形領域のこと）を求める回帰問題となる。
+* Region CNN(領域ベースCNN)。2014年に発表されたCNNを用いた物体検出モデル。
+
+    ※ **バンディングボックス**（[物体検出](https://qiita.com/mshinoda88/items/9770ee671ea27f2c81a9)。関心領域を表す矩形領域のこと）を求める回帰問題となる。
+
+    * [物体検出](https://qiita.com/mshinoda88/items/9770ee671ea27f2c81a9)
+
+        画像に写っている物体をバウンディングボックスと呼ばれる矩形（くけい）の領域で位置やクラスを認識するタスク。
 
 * 検出課題についてはCNNを用いる。
 
 * 上記組合せは、時間のかかる手法である。
 
-## ✅ 高速RCNN（fast RCNN）
+## ✅ 高速RCNN（fast RCNN、Faster R-CNN）
 
 * 関心領域の切り出しと物体認識を高速に行う手法。
 
 * 最初から最後まで深層学習でできるようになった。
+
+* 2015年にMicrosoft社が開発した物体検出アルゴリズム。
 
 ## ✅ faster RCNN
 
@@ -1864,13 +1943,17 @@ categories:
 
 * 検出と識別を同時に行うことで、遅延時間の短縮を実現したモデル。
 
-## ✅ SSD（Single Shot Detector）
+* 物体検出手法の1つ。検出と識別を同時に行うのが特徴。
 
-* YOLOより高速である。
+## ✅ [SSD（Single Shot Detector）](https://qiita.com/YutoHagiwara/items/4b66442ff1e09936f1d0)
+
+* [YOLO](https://qiita.com/cv_carnavi/items/68dcda71e90321574a2b)より高速である。
 
 * Faster RCNNと同等の精度を実現。
 
-## ✅ セマンティックセグメンテーション
+* 物体検出の手法で、特徴の1つに小さなフィルタサイズのCNNを特徴マップに適応することで、物体のカテゴリと位置を推定することが挙げられる。
+
+## ✅ [セマンティックセグメンテーション](https://jp.mathworks.com/solutions/image-video-processing/semantic-segmentation.html)
 
 * R-CNNのような矩形切り出しではなく、より詳細（画素単位）な領域分割を得るモデル。
 
@@ -1878,9 +1961,25 @@ categories:
 
 * 同じカテゴリに属する物体はすべて同一ラベルになる。
 
-## ✅ インスタンスセグメンテーション
+* 画像に写っているものをピクセル単位で領域やクラスを認識するタスク。物体領域を種類ごとに抽出する。
+
+## ✅ [インスタンスセグメンテーション](https://cvml-expertguide.net/2020/08/22/instance-segmentation/)
 
 * 同じカテゴリに属する物体でもすべて別ラベルにできる。
+
+* 画像に写っているピクセル単位で領域やクラスを認識するタスク。個別の物体領域を抽出する。
+
+## ✅ [SegNet](https://qiita.com/cyberailab/items/d11862852eccc17585e8)
+
+* 2017年に提案されたセマンティックセグメンテーションを行う手法の1つ。入力画像から特徴マップの抽出を行うEncoderと、抽出した特徴マップと元の画像のピクセル位置の対応関係をマッピングするDecoderで構成される。
+
+## ✅ [U-Net](https://www.acceluniverse.com/blog/developers/2019/11/u-net.html)
+
+* セマンティックセグメンテーションを行う手法の1つ。全層畳み込みニューラルネットワークの一種で、畳み込まれた画像をdecodeする際にencodeで使った情報を用いるのが特徴。
+
+## ✅ [Bag of Words](https://medium.com/chakki/%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%A0%E3%81%91%E3%81%A9%E5%A5%A5%E3%81%8C%E6%B7%B1%E3%81%84-%E5%8D%98%E8%AA%9E%E3%81%A7%E8%A1%A8%E3%81%99%E6%96%87%E7%AB%A0%E3%81%AE%E7%89%B9%E5%BE%B4-5e12123e8a60)
+
+* Bag-of-Words（Bow）。どの単語が含まれるかに注目して単語をベクトル化する方法。
 
 ## ✅ 完全畳み込みネットワーク（FCN）
 
@@ -1934,11 +2033,15 @@ categories:
 
 ### ✓ 談話解析
 
-* 文章中の文と文の間の役割的関係や話題の推移を明らかにするものである。形態素解析、構文解析、意味解析などの１文内の言語要素を対象にした解析とは異なる。
+* 文章中の文と文の間の役割的関係や話題の推移を明らかにするものである。[形態素解析](https://ledge.ai/morpho_analysis_japan/)、構文解析、意味解析などの１文内の言語要素を対象にした解析とは異なる。
 
-### ✓ [形態素解析](https://ja.wikipedia.org/wiki/%E5%BD%A2%E6%85%8B%E7%B4%A0%E8%A7%A3%E6%9E%90)
+### ✓ [形態素解析](https://ledge.ai/morpho_analysis_japan/)
+
+* [Wikipedia](https://ja.wikipedia.org/wiki/%E5%BD%A2%E6%85%8B%E7%B4%A0%E8%A7%A3%E6%9E%90)
 
 * 文を単語に分解し品詞を特定する。
+
+* 形態素と呼ばれる言語で意味を持つ最小単位まで分割し、解析する手法。また、単純に単語を分割するだけでなくそれぞれの形態素の品詞等の判別も行う。
 
 * 日本語は英語のようにスペースで区切られていない。分析のためには、単語を区切る必要がある。([参考](https://qiita.com/AwaJ/items/98123d1d3a9bbb6e3e3d#%E5%BD%A2%E6%85%8B%E7%B4%A0%E8%A7%A3%E6%9E%90))
 
@@ -1952,7 +2055,7 @@ categories:
 
 * 単語ではなく、文字数で分割する手法。([N-gramの作り方：Qiita](https://qiita.com/kazmaw/items/4df328cba6429ec210fb))
 
-* 形態素解析よりも単純で、任意の連続したN文字単位で区切る。([参考](https://qiita.com/AwaJ/items/98123d1d3a9bbb6e3e3d#ngram))
+* [形態素解析](https://ledge.ai/morpho_analysis_japan/)よりも単純で、任意の連続したN文字単位で区切る。([参考](https://qiita.com/AwaJ/items/98123d1d3a9bbb6e3e3d#ngram))
 
     ```
     たこ焼きが食べたい
@@ -1981,6 +2084,8 @@ categories:
 
 * 文書の中から、その文書の特徴語を抽出する時に使う値。
 
+* Term Frequency(TF)と、Inverse Document Frequency(IDF)の2つの情報から単語の重要度を算出する方法。大雑把言うと、レアな単語が何回も出てくるようなら、文書を分類する際にその単語の重要度を上げるというもの。
+
 * [TF](https://qiita.com/AwaJ/items/5937665d5a4152cc24cf#tf)：単語の文書内の出現頻度。一つの文書内で出現する回数が多ければ重要である可能性が高い
 
     $$\textrm{tf}(t,d)=\frac{n_{t,d}}{\sum_{s \in d}n_{s,d}}$$
@@ -2001,14 +2106,27 @@ categories:
 
     * $$df(t)$$：ある単語 tt が出現する文書の数
 
+## ✅ [トピックモデル](https://spjai.com/topic-model/)
 
-## ✅ 隠れマルコフモデル
+* 文書や単語に潜む潜在的なカテゴリを説明するモデル。
+
+![](https://spjai.com/wp-content/uploads/2017/10/image5-min.png)
+
+* 上の図の例のように、文章データ群があった際に、これは「政治、国会」についての話だなとか、「ノーベル賞、論文」についての話だな、各文章の主題（トピック）を判断するために、トピックモデルを構築します。
+
+## ✅ [LDA（潜在的ディリクレ配分法）Latent Dirichlet Allocation](https://qiita.com/nyancook/items/2a6c65ea3d9cb725168f)
+
+* 文書集合から各文書におけるトピックの混合比率を推定する手法の1つ。各トピックから単語が生成される確率もトピックと同時に推定する。
+
+## ✅ [隠れマルコフモデル（HMM）](https://www.kabuku.co.jp/developers/hmm)
 
 * HMM、Hidden Markov Model
 
-* 直前の結果のみから次の結果が確率的に求まるという「マルコフ性」を仮定して、事象をモデル化する手法。
+* 直前の結果のみから次の結果が確率的に求まるという「マルコフ性」を仮定して、事象をモデル化する手法。観測されない隠れた状態を持つマルコフ過程。
 
-## ✅ word2vec
+## ✅ [word2vec](https://qiita.com/g-k/items/69afa87c73654af49d36)
+
+* 単語の分散表現を獲得する、ニューラルネットワークを用いた推論ベースの手法。
 
 * ベクトル空間モデル、単語埋め込みモデルともいわれる。
 
@@ -2023,6 +2141,10 @@ categories:
 * 王様－男性＋女性＝女王　のような計算ができる、というのが有名。
 
 * CBOWとスキップグラムの２つの手法がある。
+
+## ✅ [doc2vec](https://qiita.com/g-k/items/5ea94c13281f675302ca)
+
+* 文章の分散表現を獲得する、ニューラルネットワークを用いた推論ベースの手法。
 
 ### ✓ CBOW（Countinuous Bag-of-Words）
 
@@ -2040,13 +2162,13 @@ categories:
 
     * この時適切な重みを持ったニューラルネットワークでは「確率」を表すニューロンにおいて正解ニューロンが高くなっていることが期待できます。CBOWの学習では正解ラベルとニューラルネットワークが出力した確率の交差エントロピー誤差を求め、それを損失としてその損失を少なくしていく方向に学習を進めます。
 
-    * CBOWモデルの損失関数は下記のように表されます。
+    * CBOWモデルの[損失関数](https://ai-trend.jp/basic-study/neural-network/nn_loss_function/)は下記のように表されます。
     
         (モデルを作成するに当たって用いるコンテクストを前後1単語とした場合)
 
     $$\textrm{L}=-\frac{1}{T}\displaystyle\sum_{t=1}^T \log{P}(w_{t} \mid w_{t-1},w_{t+1})$$
 
-    * 上記損失関数をできるだけ小さくしていく方向で学習していくことで、その時の重みを単語の分散表現として獲得することができます。
+    * 上記[損失関数](https://ai-trend.jp/basic-study/neural-network/nn_loss_function/)をできるだけ小さくしていく方向で学習していくことで、その時の重みを単語の分散表現として獲得することができます。
 
 ### ✓ スキップグラム（Skip-gram）
 
@@ -2058,13 +2180,13 @@ categories:
 
 * skip-gramの入力層はひとつで出力層はコンテクストの数だけ存在します。それぞれの出力層で個別に損失を求め、それらを足し合わせたものを最終的な損失とします。
 
-* また、skip-gramモデルの損失関数は下記の式で表されます。
+* また、skip-gramモデルの[損失関数](https://ai-trend.jp/basic-study/neural-network/nn_loss_function/)は下記の式で表されます。
 
     (モデルを作成するに当たって用いるコンテクストを前後1単語とした場合)
 
     $$\textrm{L}=-\frac{1}{T}\displaystyle\sum_{t=1}^T (\log{P}(w_{t-1} \mid w_{t})+\log{P}(w_{t+1} \mid w_{t}))$$
 
-* skip-gramモデルはコンテクストの数だけ推測を行うためその損失関数は各コンテクストで求めた損失の総和を求める必要があります。
+* skip-gramモデルはコンテクストの数だけ推測を行うためその[損失関数](https://ai-trend.jp/basic-study/neural-network/nn_loss_function/)は各コンテクストで求めた損失の総和を求める必要があります。
 
 ## ✅ fastText
 
@@ -2100,25 +2222,67 @@ categories:
 
 * 微分可能であり、最急降下法による効率的な学習が可能。
 
-## ✅ 💻Tay
+## ✅ [💻Tay](https://ja.wikipedia.org/wiki/Tay_(%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD))
 
-* Microsoft社によるチャットボット。
+* Microsoft社が2016年に、19歳の女性の話し方を模倣するように設計されたチャットボット。
 
 * Twitter上で不適切な誘導を受け、不適切な行動を繰り返しサービスが停止された。
 
 * Gigazine-Microsoftの[人工知能](https://ledge.ai/artificial-intelligence/)が「クソフェミニストは地獄で焼かれろ」「ヒトラーは正しかった」など問題発言連発で炎上し活動停止
 
-## ✅ BERT
+## ✅ [BERT](https://qiita.com/omiita/items/72998858efc19a368e50)
 
 * Bidirectional Encoder Representations from Transformers。
 
 * Google AI Languageの研究者が最新論文で発表した。
 
+* Google社が2018年に発表した双方向[Transformer](https://qiita.com/omiita/items/07e69aef6c156d23c538)を使ったモデルで、事前学習に特徴がある。
+
 * [参考](https://ainow.ai/2019/05/21/167211/) BERT解説：自然言語処理のための最先端言語モデル | AI専門ニュースメディア AINOW
+
+### [Transformer](https://qiita.com/omiita/items/07e69aef6c156d23c538)
+
+* Google社が2017年に発表した「Attention Is All You Need」という論文で登場した言語モデル。
+
+### [マスクされた言語モデル（Masked Language Model：MLM）](https://ainow.ai/2019/05/21/167211/#Masked_Language_ModelMLM)
+
+* BERTにも用いられている事前学習のタスクで、文中の複数個所の単語をマスクし、本来の単語を予測する。
+
+### [Next Sentence Prediction（NSP）](https://ainow.ai/2019/05/08/166723/#Next_Sentence_Prediction)
+
+* BERTにも用いられている事前学習のタスクで、2文が渡され、連続した文かどうか判定する。
+
+### [Gap Sentences Generation（GSG）](https://ai-scholar.tech/articles/treatise/pegasus-ai-369)
+
+* PEGASUSというモデルにも用いられている事前学習のタスクで、複数個所の文をマスクし、本来の分を予測する。またマスク部分の決定はランダム以外の方法で決定する。
+
+### [GPT-2](https://www.chiropotes.com/latesttech/article201911241/)
+
+* OpenAIが2019年に発表したTransformerベースのテキスト生成モデル。800万のWEBページを学習している。高精度な為に開発陣が「あまりにも危険過ぎる」と危惧するあまり論文公開が延期される事態にまで発展したことで話題に。
+
+### [音素](https://acoustics.jp/qanda/answer/45.html)
+
+* 語の意味を区別する音声の最小単位。音声認識では、音素から単語への予測が行われることがある。
+
+### [Cepstrum ケプストラム](https://www.g200kg.com/jp/docs/dic/cepstrum.html)
+
+* 音声認識で使われる特徴量の1つ。音声信号に対し、フーリエ変換を行った後、対数を取り、もう一度フーリエ変換を行い、作成する。
+
+### [メル尺度](https://qiita.com/tmtakashi_dist/items/eecb705ea48260db0b62#%E3%83%A1%E3%83%AB%E5%B0%BA%E5%BA%A6)
+
+* 人間の音声知覚の特徴を考慮した尺度で、メル尺度の差が同じ時、人が感じる音高の差が同じになる。
+
+### [メル周波数ケプストラム係数（MFCC）](https://qiita.com/tmtakashi_dist/items/eecb705ea48260db0b62#mfcc%E3%81%A8%E3%81%AF)
+
+* 音声認識の領域で使われることの多い特徴量の1つ。ケプストラムにメルメル周波数を考慮したもの。
+
+### [マルコフ過程](https://ticc-econometrics.hatenablog.com/entry/2018/09/01/100000)
+
+* 確率モデルの1つ。マルコフ性（ある時刻の状態がその直前の状態によってのみ決まる特性で無記憶性ともいう）を持つ確率過程（時間とともに変化する確率変数）。
 
 # 7-3.📘音声処理
 
-## ✅ WaveNet
+## ✅ [WaveNet](https://ai-scholar.tech/articles/treatise/waven-ai)
 
 * Google DeepMind社により開発。
 
@@ -2126,29 +2290,68 @@ categories:
 
 * 自然な発話により、音声合成のブレイクスルーとして注目された。
 
+* 2016年にDeepMind社によって開発された音声合成・音声認識に使われるモデル。PixelCNNというモデルをベースにしている。
+
 ## ✅ それまでの音声認識
 
-* 1990年代では、隠れマルコフモデル（HMM）による音の判別モデルと、Nグラム法による語と語のつながりを判別する言語モデルでできていた。
+* 1990年代では、[隠れマルコフモデル（HMM）](https://www.kabuku.co.jp/developers/hmm)
+による音の判別モデルと、Nグラム法による語と語のつながりを判別する言語モデルでできていた。
 
 # 7-4.📘ロボティクス （[強化学習](https://ledge.ai/reinforcement-learning/)）
 
 * 動作制御には[モンテカルロ法](https://xtrend.nikkei.com/atcl/contents/18/00131/00007/)やQ学習が応用されている。
 
-* DQN（Deep Q Networks） アタリのゲームに対して応用された。
+* [DQN（Deep Q Networks）](https://qiita.com/ishizakiiii/items/5eff79b59bce74fdca0d) アタリのゲームに対して応用された。
+
+    * [DQN（Deep Q Networks）](https://qiita.com/ishizakiiii/items/5eff79b59bce74fdca0d) 
+    
+        Q学習において、状態と行動の価値をこれまで得た報酬で近似するQ関数を、ニューラルネットワークで表現する手法。
 
 * アルファ碁 モンテカルロ木探索で成果を挙げた。
 
+    * [モンテカルロ木探索](https://blog.brainpad.co.jp/entry/2018/04/05/163000)
+    
+        ある状態から行動選択を繰り返して報酬和を計算するということを複数回行った後、報酬和の平均値をある状態の価値とする価値推定方法。
+
 * アルファ碁ゼロ セルフプレイにより学習を進め、アルファ碁を凌駕した。
 
-* RAINBOWモデル [強化学習](https://ledge.ai/reinforcement-learning/)の性能を改善するための３つのモデルをすべて適用したもの。
+* [RAINBOW](https://qiita.com/shionhonda/items/ec05aade07b5bea78081)モデル [強化学習](https://ledge.ai/reinforcement-learning/)の性能を改善するための３つのモデルをすべて適用したもの。
 
-    * 方策ベース
+    * [方策ベース](https://qiita.com/shionhonda/items/ec05aade07b5bea78081#%E4%BE%A1%E5%80%A4%E3%83%99%E3%83%BC%E3%82%B9%E6%96%B9%E7%AD%96%E3%83%99%E3%83%BC%E3%82%B9%E3%83%A2%E3%83%87%E3%83%AB%E3%83%99%E3%83%BC%E3%82%B9)
 
-    * 状態価値関数（価値ベース）
+        * 現時点の方策で計算した報酬の期待値と方策を見比べて、どのように方策を変化させれば報酬の期待値が大きくなるかを直接計算する方法。
 
-    * Q学習、SARSA（[参考](https://qiita.com/shionhonda/items/ec05aade07b5bea78081#%E6%96%B9%E7%AD%96%E3%83%99%E3%83%BC%E3%82%B9%E3%81%AE%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0)）
+    * [RAINBOW](https://qiita.com/shionhonda/items/ec05aade07b5bea78081)
+
+        Deep Q NetworkをベースにDueling Network、Double DQN、Noisy Net、Categorical DQN等のアルゴリズムを全部載せしたアルゴリズム。
+
+    * [状態価値関数（価値ベース）](https://qiita.com/shionhonda/items/ec05aade07b5bea78081#%E4%BE%A1%E5%80%A4%E3%83%99%E3%83%BC%E3%82%B9%E6%96%B9%E7%AD%96%E3%83%99%E3%83%BC%E3%82%B9%E3%83%A2%E3%83%87%E3%83%AB%E3%83%99%E3%83%BC%E3%82%B9)
+
+        報酬の期待値を状態や行動の価値計算に反映する方法。
+
+    * [Q学習](https://products.sint.co.jp/aisia/blog/vol1-12)
+
+        * 価値ベースの強化学習手法。状態sと行動aの組み合わせの価値を、状態sと行動aを選んだ後に得られる報酬和の期待値で表現する。
+    
+    * SARSA（[参考](https://qiita.com/shionhonda/items/ec05aade07b5bea78081#%E6%96%B9%E7%AD%96%E3%83%99%E3%83%BC%E3%82%B9%E3%81%AE%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0)）
 
     * モデルベース
+
+* [Actor-Critic](https://qiita.com/shionhonda/items/ec05aade07b5bea78081#actor-critic%E7%B3%BB)
+
+    * 行動を選択するActorと、Q関数を計算することで行動を評価するCriticを、交互に学習するアルゴリズム。
+
+* [REINFORCE](https://qiita.com/shionhonda/items/ec05aade07b5bea78081#reinforce)
+
+    * 一連の行動による報酬和で方策を評価して、チョコ右折方策を改善する方策勾配法系のアルゴリズム。
+
+* [AlphaGo Zero](https://ja.wikipedia.org/wiki/AlphaGo_Zero)
+
+    * AlphaGoを改良したプログラム。人間の棋譜を一切使わずに、Alpha Zero自身の自己対戦によって棋譜を生成して、ゼロからニューラルネットワークを学習。
+
+* [deepfake(ディープフェイク)](https://lionbridge.ai/ja/articles/deepfake/)
+
+    * GAN等を用いて人物の画像や映像を合成する技術。既存の画像と映像を、元となる画像または映像に重ね合わせて、非常に自然に合成をすることが可能。
 
 ## ✅ [強化学習](https://ledge.ai/reinforcement-learning/)の課題
 
@@ -2305,7 +2508,9 @@ categories:
 
 * データ内容の正確性の確保などに関する努力義務（19条）
 
-* EU一般データ保護規則（GDPR）にも注意。
+* [EU一般データ保護規則（GDPR）](https://tokiocyberport.tokiomarine-nichido.co.jp/cybersecurity/s/column-detail39)にも注意。
+
+    * EUを含む欧州経済領域内にいる個人の個人データを保護する為のEUにおける統一的ルールである、域内で取得した「氏名」や「クレジットカード番号」等の個人データを域外に移転することを原則禁止している。EU域内でビジネスを行い、EU域内にいる個人の個人データを取得する日本企業に対しても、幅広く適用される。
 
 ## ✅ ドローンでの利用（[参考](https://viva-drone.com/drone-premission-online-dips-mlit-go-jp/)）
 
@@ -2395,6 +2600,10 @@ categories:
 
 * 教師のスコアリングにより解雇を行ったが、現場のニーズや実情に合致していなかった。
 
+### [日本ディープラーニング協会](https://www.jdla.org/)
+
+* 一般社団法人。Japan Deep Learning Association（JDLA）。G検定及びE検定の開催団体。
+
 ## ✅ 目標間のトレードオフ
 
 * 協調フィルタリングにより、フィルタ・バブル（好みの情報にしか触れられなくなる）が生じる。
@@ -2421,11 +2630,13 @@ categories:
 
 * 危機管理マニュアルの有効性を検証する。
 
-## ✅ 透明性レポート
+## ✅ [透明性レポート](https://transparencyreport.google.com/?hl=ja)
 
 * プライバシーヤセキュリティについては、積極的に社会と対話する必要がある。
 
-* いくつかの個別企業では透明性レポートを公開している。
+* いくつかの個別企業では[透明性レポート](https://transparencyreport.google.com/?hl=ja)を公開している。
+
+* 顧客・社会に向けて、収集したデータやその扱い等について開示したもの。
 
 ## ✅ 指針作り
 
@@ -2446,6 +2657,56 @@ categories:
     * AIの短期的、長期的な課題について公開。
 
     * 「AIによる軍拡競争は避けるべきである」ことが明示された。
+
+## プラットフォーム等
+
+### [Kaggle](https://www.codexa.net/what-is-kaggle/)
+
+* データサイエンティストのコンペティションプラットフォームであり、様々な企業や研究者データを投稿し、世界中のデータサイエンティストが自身のモデルの精度等を競っている。様々なデータに対する解法や考察等も存在し、閲覧することができる。
+
+### [Coursera](https://ja.coursera.org/)
+
+* 機械学習等の分野をオンラインで学ぶことができる教育プラットフォーム。
+
+### [MOOCs](https://education-career.jp/magazine/data-report/2016/moocs/)
+
+* Courseraのような大規模なオンライン講座群のことで、Massive Open Online Coursesの略。
+
+### [arXiv（アーカイヴ）](https://ja.wikipedia.org/wiki/ArXiv)
+
+* 機械学習等の論文をアップロード・ダウンロードすることができるプラットフォームで、最新の研究等の情報を閲覧することができる。
+
+### [フィルターバブル現象](https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E3%83%BC%E3%83%90%E3%83%96%E3%83%AB)
+
+* 商品のレコメンドシステムや検索エンジンにおいて、自分が見たいものや欲しい情報のみに包まれてしまう現象で、インターネット活動家であるイーライ・パリサーが2011年に出版した著書名から名前が付けられた。
+
+### [人工知能学会](https://www.ai-gakkai.or.jp/)
+
+* 一般社団法人。人工知能に関する研究の進展と知識の普及を図り，もって学術・技術ならびに産業・社会の発展に寄与することを目的として設立された学会。
+
+### [Ledge.ai](https://ledge.ai/)
+
+* 株式会社レッジが運営する「発想と実装の間をつなぐ」がコンセプトのAI/人工知能特化型Webメディア。
+
+### [AINOW](https://ainow.ai/)
+
+* ディップ株式会社が運営するAI（人工知能）について知り・学び・役立てることができる国内最大級のメディア。
+
+### [AI 機械学習 Wiki](https://www.datarobot.com/jp/wiki/)
+
+* 機械学習自動化ソフトウェアのDataRobotが運営する用語集サイト。あらゆるスキルレベルのビジネスおよび分析の専門家向けの機械学習、データサイエンス、人工知能（AI）に関する用語の検索が可能。
+
+### [Aidemy](https://aidemy.net/courses/search?category=%E5%85%A8%E3%81%A6&subcategory=%E5%85%A8%E3%81%A6&target=&mainExerciseType=&searchWord=&courseGroup=)
+
+* 株式会社アイデミーが運営するテックカレッジ。お薦めは「[機械学習概論](https://aidemy.net/courses/2010)」と「[ディープラーニング基礎](https://aidemy.net/courses/5090)」。
+
+### [Chainer チュートリアル](https://tutorials.chainer.org/ja/tutorial.html)
+
+* Chainerはニューラルネットワークの計算および学習を行うためのオープンソースのソフトウェアライブラリ。
+
+### [Able Programming](https://www.youtube.com/channel/UCh5M2YUAPW7HnpfTUv7XHmA/videos)
+
+* 機械学習やディープラーニングに関する動画を投稿しているYouTubeチャンネル。
 
 # その他
 
@@ -2490,6 +2751,14 @@ categories:
 * 🎩 アンドリュー・ング（Andrew Ng） による。（「GoogleBrain」にも携わり、Baidu研究所に勤務する）
 
 * 初級から上級までAIに関する講義が行われている。
+
+## ✅ [XAI](https://www.atmarkit.co.jp/ait/articles/1908/19/news022.html)
+
+* 解釈性の高いもしくは説明可能なAIのこと。米国DARPA（Defence Advanced Research Projects Agency: 国防高等研究計画局）が主導する研究プロジェクトが発端となり、XAI（Explainable AI）と呼ばれる。
+
+## ✅ [匿名加工情報](https://www.jcb.co.jp/service/pop/tokumeikakou.html)
+
+* 個人方法を加工することで特定の個人を識別することができないようにし、当該個人情報を復元不可にした情報。
 
 # 参考
 

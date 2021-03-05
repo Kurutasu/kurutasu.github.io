@@ -499,7 +499,7 @@ categories:
 
 * その後、2015年に人間の認識率（約5.1%）を抜いた。
 
-* AlexNet（畳み込みニューラルネットワーク、CNN）を採用。
+* AlexNet（[畳み込みニューラルネットワーク、CNN](https://www.imagazine.co.jp/%E7%95%B3%E3%81%BF%E8%BE%BC%E3%81%BF%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E3%81%AE%E3%80%8C%E5%9F%BA%E7%A4%8E%E3%81%AE%E5%9F%BA%E7%A4%8E%E3%80%8D%E3%82%92%E7%90%86%E8%A7%A3%E3%81%99/)）を採用。
 
 * 前年度までは[サポートベクターマシン](https://logics-of-blue.com/svm-concept/)が主流だったが、ここからCNNに切り替わったことになる。
 
@@ -707,7 +707,7 @@ categories:
 
     * 統計学における回帰分析の一種。
 
-    * 特徴：通常の[線形回帰](https://www.ibm.com/jp-ja/analytics/learn/linear-regression)は過学習を起こしやすい。ラッソ回帰やリッジ回帰で過学習を抑制する。
+    * 特徴：通常の[線形回帰](https://www.ibm.com/jp-ja/analytics/learn/linear-regression)は[過学習](https://lionbridge.ai/ja/articles/overfitting/)を起こしやすい。ラッソ回帰やリッジ回帰で[過学習](https://lionbridge.ai/ja/articles/overfitting/)を抑制する。
 
 * [アノテーション](https://ledge.ai/annotation/)
 
@@ -747,7 +747,7 @@ categories:
     
     * 活性化関数として シグモイド関数 を使い、重回帰分析により二値分類を行う。
 
-        * [シグモイド関数：Sigmoid function](https://www.atmarkit.co.jp/ait/articles/2003/04/news021.html)は 対数オッズ（ロジット） の逆関数である。（ロジット変換（正規化））活性化関数に用いられる関数の1つ。入力xの値を0~1の範囲の値に変換する。主に隠れ層（中間層）や二項分類問題を解くモデルの出力層で用いられる。
+        * [シグモイド関数：Sigmoid function](https://www.atmarkit.co.jp/ait/articles/2003/04/news021.html)は 対数オッズ（ロジット） の逆関数である。（ロジット変換（[正規化](https://qiita.com/yShig/items/dbeb98598abcc98e1a57)））活性化関数に用いられる関数の1つ。入力xの値を0~1の範囲の値に変換する。主に隠れ層（中間層）や二項分類問題を解くモデルの出力層で用いられる。
 
         * 対数をとる前の オッズ とは、ある事象が起こる確率 p と起こらない確率 1−p の比のこと。
 
@@ -791,7 +791,7 @@ categories:
 
     * コンセプトはマージンの最大化を行うこと。
 
-    * サポートベクター(サポートベクトル)を利用して予測を行う教師あり学習のモデルで、カーネル法により非線形分離を可能としている。
+    * サポートベクター(サポートベクトル)を利用して予測を行う教師あり学習のモデルで、[カーネル](https://qastack.jp/stats/154798/difference-between-kernel-and-filter-in-cnn)法により非線形分離を可能としている。
 
     * スラック変数
     
@@ -808,7 +808,7 @@ categories:
 
         * 写像の際に計算が複雑にならないように式変形するテクニック。計算量を大幅に削減する。
 
-        * カーネル関数を使うことで、高次元の特徴空間における内積を行わず、入力空間でのカーネルの計算に落とし込むアプローチ。行っていることに対して、計算量が大幅に少なくて済む。
+        * カーネル関数を使うことで、高次元の特徴空間における内積を行わず、入力空間での[カーネル](https://qastack.jp/stats/154798/difference-between-kernel-and-filter-in-cnn)の計算に落とし込むアプローチ。行っていることに対して、計算量が大幅に少なくて済む。
 
 * [k近傍法](https://dev.classmethod.jp/articles/2017ad_20171218_knn/)
 
@@ -912,9 +912,17 @@ categories:
 
     * 訓練データによる学習でモデルを作成する。
 
-    * 検証データによりハイパーパラメータ等を調整する。
+    * 検証データにより[ハイパーパラメータ](https://aizine.ai/glossary-highper-parameter/)等を調整する。
 
     * テストデータにより評価を行う。
+
+* [ハイパーパラメータ](https://aizine.ai/glossary-highper-parameter/)
+
+    * 機械学習のモデルが持つパラメータの中で人が調整をしないといけないパラメータ、設定のこと。
+
+* [グリッドサーチ](https://www.case-k.jp/entry/2018/09/03/211016)
+
+    * モデルの精度を向上させる為に全てのパラメータの組み合わせを試す手法。
 
 ## ✅ 欠損値処理
 
@@ -952,9 +960,9 @@ categories:
 
 ## ✅ オーバーフィッティング、アンダーフィッティング
 
-* オーバーフィッティング
+* [オーバーフィッティング](https://lionbridge.ai/ja/articles/overfitting/)
 
-    * 訓練データに適合しすぎており（過学習）、テストデータの精度が低下している状態。（汎化性能が低い状態）
+    * 訓練データに適合しすぎており（[過学習](https://lionbridge.ai/ja/articles/overfitting/)）、テストデータの精度が低下している状態。（汎化性能が低い状態）
 
     * 訓練データにフィットしすぎないように、[正則化](https://toeming.hatenablog.com/entry/2020/04/03/000925)項の導入などを行ったのち、改めて学習を行う必要がある。
 
@@ -1004,7 +1012,7 @@ categories:
 
 * 問題：
 
-    * オーバーフィッティング（過学習）しやすい。（但し、精度に特別バラつきが出やすいというわけではない。）
+    * [オーバーフィッティング（過学習）](https://lionbridge.ai/ja/articles/overfitting/)しやすい。（但し、精度に特別バラつきが出やすいというわけではない。）
 
     * 勾配消失問題を起こしやすい。
 
@@ -1156,7 +1164,9 @@ categories:
 
 ## ✅ その他の機械学習に関する定理
 
-### ✓ [ノーフリーランチ定理](https://ja.wikipedia.org/wiki/%E3%83%8E%E3%83%BC%E3%83%95%E3%83%AA%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%81%E5%AE%9A%E7%90%86)
+### ✓ [ノーフリーランチ定理](https://www.atmarkit.co.jp/ait/articles/2007/17/news020.html)
+
+* [Wikipedia](https://ja.wikipedia.org/wiki/%E3%83%8E%E3%83%BC%E3%83%95%E3%83%AA%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%81%E5%AE%9A%E7%90%86)
 
 * 組み合わせ最適化の領域での定理。
 
@@ -1250,7 +1260,7 @@ categories:
 
 * 出力層は、シグモイド関数または[ソフトマックス関数](https://www.atmarkit.co.jp/ait/articles/2004/08/news016.html)で確率を表現する必要がある。
 
-    * [ソフトマックス関数（softmax関数）](https://www.atmarkit.co.jp/ait/articles/2004/08/news016.html)：各ユニットの出力の総和を１に正規化する機能がある
+    * [ソフトマックス関数（softmax関数）](https://www.atmarkit.co.jp/ait/articles/2004/08/news016.html)：各ユニットの出力の総和を１に[正規化](https://qiita.com/yShig/items/dbeb98598abcc98e1a57)する機能がある
 
         * シグモイド関数を一般化したものであり、複数個の入力を受け取り、受け取った数と同じ個数の出力を総和が1となるように変換して出力する。主に出力層で使われる。
 
@@ -1303,11 +1313,11 @@ categories:
 
 * モデルの予測値と実際の値（正解データ）との誤差を表した関数。
 
-## ✅ 過学習
+## ✅ [過学習](https://lionbridge.ai/ja/articles/overfitting/)
 
 * 訓練誤差は小さいが、汎化誤差が大きい（テストデータに対する誤差が大きい）状態。
 
-* [正則化](https://toeming.hatenablog.com/entry/2020/04/03/000925)項の導入やアーリーストッピングの適用など、過学習を抑制するためのさまざまな手法が研究されている。
+* [正則化](https://toeming.hatenablog.com/entry/2020/04/03/000925)項の導入やアーリーストッピングの適用など、[過学習](https://lionbridge.ai/ja/articles/overfitting/)を抑制するためのさまざまな手法が研究されている。
 
 # 6-2.📘[学習率](https://aidemy.net/courses/5090/exercises/HkMP93IoLlM)の最適化
 
@@ -1321,7 +1331,7 @@ categories:
 
 * 関数の勾配に当たる微分係数に沿って降りていくことで、最小値を求める手法。大域最適解に必ず収束するわけではないので注意が必要。
 
-* [勾配降下法](https://aizine.ai/glossary-gradient-descent/)のハイパーパラメータ
+* [勾配降下法](https://aizine.ai/glossary-gradient-descent/)の[ハイパーパラメータ](https://aizine.ai/glossary-highper-parameter/)
 
     * [イテレーション（iteration）](https://research.miidas.jp/2019/04/%E3%82%A8%E3%83%9D%E3%83%83%E3%82%AF%E3%81%A8%E3%81%8B%E3%83%9F%E3%83%8B%E3%83%90%E3%83%83%E3%83%81%E3%81%A8%E3%81%8Bsgd%E3%81%A8%E3%81%8B/)：計算の繰り返し数。
 
@@ -1333,7 +1343,7 @@ categories:
 
         * 値が小さいと学習はなかなか進まない（計算量が増える）が、学習は着実に進む可能性が高い。
 
-        * [勾配降下法](https://aizine.ai/glossary-gradient-descent/)において、勾配に沿って一度にどれだけ降りていくかを設定するハイパーパラメータ。
+        * [勾配降下法](https://aizine.ai/glossary-gradient-descent/)において、勾配に沿って一度にどれだけ降りていくかを設定する[ハイパーパラメータ](https://aizine.ai/glossary-highper-parameter/)。
 
     * 手法の具体例
 
@@ -1341,7 +1351,7 @@ categories:
 
         * ミニバッチ勾配降下法：学習データから複数（バッチサイズ）を選択し誤差計算＆パラメータ更新を繰り返す。
 
-        * 確率的勾配降下法（SGD）：学習データから確率的にデータを選択し、誤差計算＆パラメータ更新を行う。
+        * [確率的勾配降下法（SGD）](https://lionbridge.ai/ja/articles/gradient-descent/)：学習データから確率的にデータを選択し、誤差計算＆パラメータ更新を行う。	Stochastic Gradient Descent。パラメータxを更新する為の勾配を求める際、全データの中からランダムに抜き出したデータを利用する（ミニバッチ学習）。
 
 ## ✅ [勾配降下法](https://aizine.ai/glossary-gradient-descent/)の問題と改善
 
@@ -1351,23 +1361,27 @@ categories:
 
 * ２次元の場合は停留点、３次元の場合は [鞍点（あんてん）](https://note.com/lydiacorp/n/n20bfca246c4b) にはまることもある。
 
-    * はまった状態をプラトーという。次元が高いほど発生しやすい。
+    * はまった状態を[プラトー](https://ainow.ai/2019/03/13/164123/#AI-2)という。次元が高いほど発生しやすい。 [鞍点](https://note.com/lydiacorp/n/n20bfca246c4b) 等の[停留点](https://note.com/lydiacorp/n/n20bfca246c4b)に到達して学習が停滞している状態。
     
-    * プラトーを抜け出す方法としてモーメンタム、AdaGrad、Adadelta、RMSprop、Adamなどがある。
+    * [プラトー](https://ainow.ai/2019/03/13/164123/#AI-2)を抜け出す方法として[モーメンタム](https://qiita.com/omiita/items/1735c1d048fe5f611f80#5-%E3%83%A2%E3%83%BC%E3%83%A1%E3%83%B3%E3%82%BF%E3%83%A0)、[AdaGrad](https://www.renom.jp/ja/notebooks/tutorial/basic_algorithm/adagrad/notebook.html)、[Adadelta](https://www.renom.jp/ja/notebooks/tutorial/basic_algorithm/adagrad/notebook.html)、RMSprop、Adamなどがある。
 
     * 現在はRMSprop、Adamが利用される。([参考](https://postd.cc/optimizing-gradient-descent/))
 
     * ある次元から見ると極大点であるが、他の次元から見ると極小点となる点で[勾配降下法](https://aizine.ai/glossary-gradient-descent/)での学習がうまくいかない原因となることがある。
 
-### ✓ モーメンタム（Momentum、慣性）
+### ✓ [モーメンタム（Momentum、慣性）](https://qiita.com/omiita/items/1735c1d048fe5f611f80#5-%E3%83%A2%E3%83%BC%E3%83%A1%E3%83%B3%E3%82%BF%E3%83%A0)
 
 * 以前に適用した勾配の方向を、現在のパラメータ更新にも影響させる。（慣性を効かせる）
+
+* SGDに慣性的な性質を持たせた手法。最小値まで辿り着く経路がSGDと比べて無駄の少ない動きとなっていると共に、停滞しやすい領域においても学習がうまくいきやすくなるといったメリットがある。
 
 * 勾配降下で進む方向が、大きくブレにくくなる。（図の青い線）
 
     ![](https://cdn-images-1.medium.com/max/842/0*TKxSMrG2xPLtcRVy.png)
 
-### ✓ AdaGrad
+### ✓ [AdaGrad](https://www.renom.jp/ja/notebooks/tutorial/basic_algorithm/adagrad/notebook.html)
+
+* SGDの改良手法で、[勾配降下法](https://aizine.ai/glossary-gradient-descent/)におけるパラメータ毎の[学習率](https://aidemy.net/courses/5090/exercises/HkMP93IoLlM)を、勾配を用いて自動で更新する。
 
 * [学習率](https://aidemy.net/courses/5090/exercises/HkMP93IoLlM)をパラメータに適応させることで自動的に[学習率](https://aidemy.net/courses/5090/exercises/HkMP93IoLlM)を調整する。（人が固定値を決めず、調整を機会に任せる）
 
@@ -1379,13 +1393,13 @@ categories:
 
 ### ✓ Adadelta
 
-* AdaGradの発展形
+* [AdaGrad](https://www.renom.jp/ja/notebooks/tutorial/basic_algorithm/adagrad/notebook.html)の発展形
 
 * 急速かつ単調な[学習率](https://aidemy.net/courses/5090/exercises/HkMP93IoLlM)の低下防止をはかったモデル。
 
-### ✓ RMSprop
+### ✓ [RMSprop](https://qiita.com/omiita/items/1735c1d048fe5f611f80#6-rmsprop)
 
-* AdaGradの発展形
+* [AdaGrad](https://www.renom.jp/ja/notebooks/tutorial/basic_algorithm/adagrad/notebook.html)を改良した手法。
 
 * 急速かつ単調な[学習率](https://aidemy.net/courses/5090/exercises/HkMP93IoLlM)の低下防止をはかったモデル。
 
@@ -1393,19 +1407,23 @@ categories:
 
 * 指数移動平均を蓄積することにより解決をはかったモデル。
 
-### ✓ Adam
+### ✓ [Adam](https://qiita.com/omiita/items/1735c1d048fe5f611f80#7-adam)
 
 * それぞれのパラメータに対し[学習率](https://aidemy.net/courses/5090/exercises/HkMP93IoLlM)を計算し適応させるモデル。
 
 * 勾配の平均と分散をオンラインで推定した値を利用する。
 
+* [RMSprop](https://qiita.com/omiita/items/1735c1d048fe5f611f80#6-rmsprop)を改良したもので、2014年に発表された。
+
 # 6-3.📘更なるテクニック
 
 * 更に精度を高めるためのテクニックがさまざまある。
 
-## ✅ ドロップアウト(Dropout)
+## ✅ [ドロップアウト(Dropout)](https://qiita.com/shu_marubo/items/70b20c3a6c172aaeb8de)
 
-* ランダムにニューロンをドロップアウトさせることで、ディープラーニングのオーバーフィッティング対策を行う。
+* ランダムにニューロンを[ドロップアウト](https://qiita.com/shu_marubo/items/70b20c3a6c172aaeb8de)させることで、ディープラーニングのオーバーフィッティング対策を行う。
+
+* ニューラルネットワークの学習の際、一定の確率でランダムにノードを無視して学習を行う手法で過学習を防ぐ効果がある。
 
 * これにより、[アンサンブル学習](https://agency-star.co.jp/column/ensemble-learning/)を行っているのと同じような状況になる。
 
@@ -1415,7 +1433,7 @@ categories:
 
     [![](https://img.youtube.com/vi/0WcrBe017-w/0.jpg)](https://youtu.be/0WcrBe017-w "【機械学習】アンサンブル学習（前編）| バギング・スタッキング・バンピング、ランダムフォレスト")
 
-## ✅ アーリーストッピング(early stopping)
+## ✅ [アーリーストッピング(early stopping)](https://note.com/okonomiyaki011/n/n371ef12f40e0#uCoBZ)
 
 * 学習を早めに打ち切ることで、ディープラーニングのオーバーフィッティング対策を行う。
 
@@ -1423,27 +1441,31 @@ categories:
 
 * どんな手法でも使えるため、非常に強力である。
 
-## ✅ データの正規化・重みの初期化
+* 早期終了、早期打ち切り。学習の際、主に過学習が起きる前に学習を早めに切り上げて終了すること。
 
-### ✓ データの正規化
+## ✅ データの[正規化](https://qiita.com/yShig/items/dbeb98598abcc98e1a57)・重みの初期化
+
+### ✓ データの[正規化](https://qiita.com/yShig/items/dbeb98598abcc98e1a57)
 
 データの途中処理ではなく、始めの工夫も必要かつ有効である。
 
-* 正規化（Normalization、≒Scaling）
+* [正規化（Normalization、≒Scaling）](https://qiita.com/yShig/items/dbeb98598abcc98e1a57)
     
     * データのスケールを合わせることで、学習時の収束を早める。
 
-    * 一番簡単なのは各[特徴量](https://ainow.ai/2020/07/14/225092/#i-5)を ０～１ の範囲に変換（正規化）すること。
+    * スケーリング。データのスケールを揃える等して調整する事。
 
-* 標準化
+    * 一番簡単なのは各[特徴量](https://ainow.ai/2020/07/14/225092/#i-5)を ０～１ の範囲に変換（[正規化](https://qiita.com/yShig/items/dbeb98598abcc98e1a57)）すること。
 
-    * データ を 標準積分布（平均０、分散１） にする。
+* [標準化](https://kotodori.jp/analytics/what-is-standardization/)
+
+    * データの特徴量を 標準積分布（平均０、分散１） に変換する処理。
 
 * [正則化（Regularization）](https://toeming.hatenablog.com/entry/2020/04/03/000925)
 
-    * 主に過学習等を防ぎ、汎化性能を上げるために、モデルに制約を設ける手法。
+    * 主に[過学習](https://lionbridge.ai/ja/articles/overfitting/)等を防ぎ、汎化性能を上げるために、モデルに制約を設ける手法。
     
-    * 過学習の回避を目的とする。
+    * [過学習](https://lionbridge.ai/ja/articles/overfitting/)の回避を目的とする。
 
     * 損失関数に[正則化](https://toeming.hatenablog.com/entry/2020/04/03/000925)項を追加することで、値の偏りを防止する。
 
@@ -1451,17 +1473,23 @@ categories:
 
     * 上記３つは言葉と意味を混同しやすいので注意！
 
-* 白色化
+* [白色化](https://mathwords.net/musoukanka)
 
-    * 各[特徴量](https://ainow.ai/2020/07/14/225092/#i-5)を無相関化したうえで標準化する、計算コストが高い
+    * データを無相関化してから[標準化](https://kotodori.jp/analytics/what-is-standardization/)を行うこと。
 
-* 局所コントラスト正規化
+    * 各[特徴量](https://ainow.ai/2020/07/14/225092/#i-5)を無相関化したうえで[標準化](https://kotodori.jp/analytics/what-is-standardization/)する、計算コストが高い
+
+* 局所コントラスト[正規化](https://qiita.com/yShig/items/dbeb98598abcc98e1a57)
     
     * 減算正規化と除算正規化の処理を行う。画像処理で利用される。
 
+* [バッチ正規化](https://qiita.com/jun40vn/items/2105467cea35f179ea45)
+
+    * 各層で伝わってきたデータに対し、[正規化](https://toeming.hatenablog.com/entry/2020/04/03/000925)を行う手法。
+
 ### ✓ 重みの初期化
 
-* ディープニューラルネットワークでは伝播を経て分布が崩れるため、データの正規化手法が有効に働かない場合がある。
+* ディープニューラルネットワークでは伝播を経て分布が崩れるため、データの[正規化](https://qiita.com/yShig/items/dbeb98598abcc98e1a57)手法が有効に働かない場合がある。
 
 * 重みの初期値を工夫することで解決をはかることができる。
 
@@ -1473,17 +1501,17 @@ categories:
 
 ### ✓ ベイズ最適化
 
-* ハイパーパラメータを含めた最適化問題とすることで、効率的なチューニングができる。
+* [ハイパーパラメータ](https://aizine.ai/glossary-highper-parameter/)を含めた最適化問題とすることで、効率的なチューニングができる。
 
 ### ✓ スパースなデータ
 
 * 疎なデータ。スパース性を用いて計算量を削減するといった工夫がなされる。
 
-## ✅ バッチ正規化
+## ✅ バッチ[正規化](https://qiita.com/yShig/items/dbeb98598abcc98e1a57)
 
-* 各層に伝わってきたデータを、その層でまた正規化するアプローチ。（最初に正規化をするだけでなく、層ごとに正規化を繰り返す）
+* 各層に伝わってきたデータを、その層でまた[正規化](https://qiita.com/yShig/items/dbeb98598abcc98e1a57)するアプローチ。（最初に[正規化](https://qiita.com/yShig/items/dbeb98598abcc98e1a57)をするだけでなく、層ごとに[正規化](https://qiita.com/yShig/items/dbeb98598abcc98e1a57)を繰り返す）
 
-* データの正規化、重みの初期化と比較し、より直接的な手法となる。
+* データの[正規化](https://qiita.com/yShig/items/dbeb98598abcc98e1a57)、重みの初期化と比較し、より直接的な手法となる。
 
 * 非常に強力な手法で学習がうまくいきやすく、オーバーフィッティングしにくい。
 
@@ -1493,7 +1521,7 @@ categories:
 
     入力の分布が学習の途中で大きく変わってしまう問題。
 
-* 類似手法として、以下の正規化法がある
+* 類似手法として、以下の[正規化](https://qiita.com/yShig/items/dbeb98598abcc98e1a57)法がある
     
     * レイヤー正規化
 
@@ -1509,7 +1537,9 @@ categories:
 
 * 以前は処理を分割していた（せざるを得なかった）が、ディープラーニングにより一括処理ができるようになった。
 
-# 6-4.📘CNN（畳み込みニューラルネットワーク）
+# 6-4.📘[CNN（畳み込みニューラルネットワーク）](https://www.imagazine.co.jp/%E7%95%B3%E3%81%BF%E8%BE%BC%E3%81%BF%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E3%81%AE%E3%80%8C%E5%9F%BA%E7%A4%8E%E3%81%AE%E5%9F%BA%E7%A4%8E%E3%80%8D%E3%82%92%E7%90%86%E8%A7%A3%E3%81%99/)
+
+* 主に画像処理の分野で高い効果を上げているニューラルネットワーク。畳み込みやプーリングといった処理が行われる。
 
 * 特徴
 
@@ -1540,7 +1570,7 @@ categories:
 
 ## ✅ 畳み込み層
 
-* フィルタ（カーネル） により画像の特徴を抽出する操作。
+* [フィルタ（カーネル）](https://qastack.jp/stats/154798/difference-between-kernel-and-filter-in-cnn) により画像の特徴を抽出する操作。
 
 * ストライド：フィルタを移動させる刻み。
 
@@ -1730,7 +1760,7 @@ categories:
 
 * 学習済みのモデルを用いて追加学習を行う。
 
-* 過学習を抑制することが出来る。
+* [過学習](https://lionbridge.ai/ja/articles/overfitting/)を抑制することが出来る。
 
 ## ✅ 蒸留
 

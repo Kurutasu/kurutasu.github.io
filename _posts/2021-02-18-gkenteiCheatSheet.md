@@ -705,7 +705,7 @@ categories:
 
     [Wikipedia](https://ja.wikipedia.org/wiki/%E7%B7%9A%E5%BD%A2%E5%9B%9E%E5%B8%B0)
 
-    [![](https://img.youtube.com/vi/zo8BmIGSO2Y/0.jpg)](https://youtu.be/zo8BmIGSO2Y "【機械学習】線形回帰（前編）| 線形回帰の理論")
+    [![](https://img.youtube.com/vi/zo8BmIGSO2Y/0.jpg)](https://youtu.be/zo8BmIGSO2Y "【機械学習】線形回帰（前編）｜ 線形回帰の理論")
 
     線や平面、超平面で関数をデータにフィッティングさせることで回帰を行う手法
 
@@ -747,7 +747,7 @@ categories:
 
 * [ロジスティック回帰 (logistic regression)](https://www.nli-research.co.jp/report/detail/id=62065?site=nli)
 
-    [![](https://img.youtube.com/vi/mMMzDFttZ8A/0.jpg)](https://youtu.be/mMMzDFttZ8A "【機械学習】ロジスティック回帰（前編|ロジスティック回帰の理論と実装")
+    [![](https://img.youtube.com/vi/mMMzDFttZ8A/0.jpg)](https://youtu.be/mMMzDFttZ8A "【機械学習】ロジスティック回帰（前編）ロジスティック回帰の理論と実装")
 
     * 線形回帰の考え方を拡張し、目的変数が2クラスを取る場合等に使われる分類手法。
     
@@ -793,7 +793,7 @@ categories:
 
 * [サポートベクターマシン：SVM](https://logics-of-blue.com/svm-concept/)
 
-    [![](https://img.youtube.com/vi/cNEhKEb9-JU/0.jpg)](https://youtu.be/cNEhKEb9-JU "【機械学習】サポートベクトルマシン（前編）|SVMの理論、ハードマージンとソフトマージン")
+    [![](https://img.youtube.com/vi/cNEhKEb9-JU/0.jpg)](https://youtu.be/cNEhKEb9-JU "【機械学習】サポートベクトルマシン（前編）｜SVMの理論、ハードマージンとソフトマージン")
 
     * コンセプトはマージンの最大化を行うこと。
 
@@ -820,7 +820,7 @@ categories:
 
     * 回帰と分類が行える手法。分類においては、特徴量空間において距離が近い順に任意のk個を取得し、多数決でデータが属するクラスを推定する。
 
-    [![](https://img.youtube.com/vi/4Vk1UhRDB34/0.jpg)](https://youtu.be/4Vk1UhRDB34 "【機械学習】機械学習入門 / k最近傍法 | 機械学習の手順と基本的なアルゴリズム")
+    [![](https://img.youtube.com/vi/4Vk1UhRDB34/0.jpg)](https://youtu.be/4Vk1UhRDB34 "【機械学習】機械学習入門 / k最近傍法 ｜ 機械学習の手順と基本的なアルゴリズム")
 
 * [ニアレストネイバー法：最近傍法](https://ledge.ai/machine-learning/)
 
@@ -830,7 +830,7 @@ categories:
 
     * 木構造を用いて回帰や分類を行う手法で解釈性の高さが特徴。
 
-    [![](https://img.youtube.com/vi/irTbuevXauk/0.jpg)](https://youtu.be/irTbuevXauk "【機械学習】決定木（CART）| 決定木の理論と実装")
+    [![](https://img.youtube.com/vi/irTbuevXauk/0.jpg)](https://youtu.be/irTbuevXauk "【機械学習】決定木（CART）｜ 決定木の理論と実装")
 
 * ニューラルネットワーク
 
@@ -878,7 +878,7 @@ categories:
 
     * 手元のデータを複数のブロック（fold）に分割し、その内の1つを評価用として使い、残りを学習データとすることを、評価用データを入れ替えてすべてに対し行う手法。
 
-    [![](https://img.youtube.com/vi/0_ZtMUJ2Mg8/0.jpg)](https://youtu.be/0_ZtMUJ2Mg8 "【機械学習】モデルの評価と選択 | 交差検証、さまざまな評価基準")
+    [![](https://img.youtube.com/vi/0_ZtMUJ2Mg8/0.jpg)](https://youtu.be/0_ZtMUJ2Mg8 "【機械学習】モデルの評価と選択 ｜ 交差検証、さまざまな評価基準")
 
 * [RMSE/MSE/MAE/RMSLE](https://aizine.ai/rmse-rmsle1114/)
 
@@ -2268,7 +2268,7 @@ categories:
 
 * Google社が2018年に発表した双方向[Transformer](https://qiita.com/omiita/items/07e69aef6c156d23c538)を使ったモデルで、事前学習に特徴がある。
 
-* [参考](https://ainow.ai/2019/05/21/167211/) BERT解説：自然言語処理のための最先端言語モデル | AI専門ニュースメディア AINOW
+* [参考](https://ainow.ai/2019/05/21/167211/) BERT解説：自然言語処理のための最先端言語モデル ｜ AI専門ニュースメディア AINOW
 
 ### [Transformer](https://qiita.com/omiita/items/07e69aef6c156d23c538)
 

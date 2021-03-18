@@ -415,7 +415,7 @@ categories:
 
 * Question-Answering（質問応答）型。
 
-* 2011年、アメリカのクイズ番組である「[ジェパディ！](https://ja.wikipedia.org/wiki/%E3%82%B8%E3%82%A7%E3%83%91%E3%83%87%E3%82%A3!」で優勝した。
+* 2011年、アメリカのクイズ番組である「[ジェパディ！](https://ja.wikipedia.org/wiki/%E3%82%B8%E3%82%A7%E3%83%91%E3%83%87%E3%82%A3!)」で優勝した。
 
 * ライトウェイトオントロジーに該当する。
 
@@ -425,7 +425,7 @@ categories:
 
 * 2011年～2016年、国立情報学研究所。
 
-* プロジェクトリーダーは🎩新井紀子。（著書『[AI vs.教科書が読めない子どもたち](https://www.amazon.co.jp/dp/4492762396』）
+* プロジェクトリーダーは🎩新井紀子。（著書『[AI vs.教科書が読めない子どもたち](https://www.amazon.co.jp/dp/4492762396)』）
 
 * 読解力に問題があり、何かしらのブレイクスルーが必要と判断され、開発は凍結された。
 
@@ -437,9 +437,7 @@ categories:
 
 * 統計的自然言語処理を行う。
 
-* 応用例：
-
-    レコメンデーションエンジン、スパムフィルター
+* 応用例：レコメンデーションエンジン、スパムフィルター
 
 ## レコメンデーションシステム
 
@@ -467,13 +465,9 @@ categories:
 
 * シンプルなニューラルネットワーク。
 
-* [ステップ関数](https://www.atmarkit.co.jp/ait/articles/2002/26/news010.html)で表現できるがニューラルネットワークでは利用できない。
+* [ステップ関数](https://www.atmarkit.co.jp/ait/articles/2002/26/news010.html)（関数への入力値が0未満の場合には常に出力値が0、入力値が0以上の場合には常に出力値が1となるような関数。）で表現できるがニューラルネットワークでは利用できない。    
 
     ![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Dirac_distribution_CDF.svg/1920px-Dirac_distribution_CDF.svg.png)
-
-* [ステップ関数](https://www.atmarkit.co.jp/ait/articles/2002/26/news010.html)
-
-    * 関数への入力値が0未満の場合には常に出力値が0、入力値が0以上の場合には常に出力値が1となるような関数。
 
 ### ✅ ディープラーニング
 

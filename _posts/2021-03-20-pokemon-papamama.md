@@ -65,7 +65,7 @@ categories:
 ![](https://projectpokemon.org/images/normal-sprite/tapufini.gif)
 
 <a>
-  <img src="https://projectpokemon.org/images/normal-sprite/tapufini.gif" title="a">
+  <img src="https://projectpokemon.org/images/normal-sprite/tapufini.gif" title="a" width=15%>
 </a>
 
 <img src="https://projectpokemon.org/images/normal-sprite/tapufini.gif" width=15%>

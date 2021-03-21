@@ -64,11 +64,9 @@ categories:
 
 ![](https://projectpokemon.org/images/normal-sprite/tapufini.gif)
 
-<a>
-  <img src="https://projectpokemon.org/images/normal-sprite/tapufini.gif" title="a" width=15%>
+<a width=15%>
+  <img src="https://projectpokemon.org/images/normal-sprite/tapufini.gif" title="a">
 </a>
-
-<img src="https://projectpokemon.org/images/normal-sprite/tapufini.gif" width=15%>
 
 * もちもの：食べ残し
 

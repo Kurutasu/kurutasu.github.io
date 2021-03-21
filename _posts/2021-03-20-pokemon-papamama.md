@@ -64,6 +64,12 @@ categories:
 
 ![](https://projectpokemon.org/images/normal-sprite/tapufini.gif)
 
+<a>
+  <img src="https://projectpokemon.org/images/normal-sprite/tapufini.gif" title="a">
+</a>
+
+<img src="https://projectpokemon.org/images/normal-sprite/tapufini.gif" width=15%>
+
 * もちもの：食べ残し
 
 * 性格:おくびょう（S↑A↓）
@@ -152,8 +158,6 @@ categories:
 ## ゴリランダー
 
 ![](https://projectpokemon.org/images/normal-sprite/rillaboom.gif)
-
-<img src="https://projectpokemon.org/images/normal-sprite/rillaboom.gif" width=25%>
 
 * 持ち物：こだわりハチマキ
 

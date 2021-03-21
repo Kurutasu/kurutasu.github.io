@@ -153,6 +153,8 @@ categories:
 
 ![](https://projectpokemon.org/images/normal-sprite/rillaboom.gif)
 
+<img src="https://projectpokemon.org/images/normal-sprite/rillaboom.gif" width=25%>
+
 * 持ち物：こだわりハチマキ
 
 * 性格:意地っ張り（A↑C↓）

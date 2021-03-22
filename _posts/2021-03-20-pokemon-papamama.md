@@ -233,7 +233,7 @@ categories:
 
 ダメージ計算：[ポケマス](https://pokemass.site/swsh/dc/)様
 
-努力値計算：[poke_cosmos](https://pokecosmos.github.io/calc_stats_galar/)
+努力値計算：[poke_cosmos](https://pokecosmos.github.io/calc_stats_galar/)様
 
 対戦環境：[ぽけっとふぁんくしょん](https://nouthuca.com/)様
 

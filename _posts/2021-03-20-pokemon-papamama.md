@@ -64,10 +64,6 @@ categories:
 
 ![](https://projectpokemon.org/images/normal-sprite/tapufini.gif)
 
-<a>
-  <img src="https://projectpokemon.org/images/normal-sprite/tapufini.gif" title="a" width=100>
-</a>
-
 * もちもの：食べ残し
 
 * 性格:おくびょう（S↑A↓）

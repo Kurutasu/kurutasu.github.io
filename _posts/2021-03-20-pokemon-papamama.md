@@ -3,7 +3,7 @@ layout: post
 title:  "【ポケモン】脳筋カイリュー【パパママ杯12位】"
 updated: 2021-03-20
 cover:  "/assets/cover_image.jpg"
-subheadline:  "パパママ杯　3勝2負レート1512"
+subheadline:  "3勝2負 レート1519"
 categories: 
 - ポケモン
 ---

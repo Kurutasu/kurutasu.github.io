@@ -58,7 +58,7 @@
   function showHobby() {
     botui.message.add({
       delay: 1500,
-      content: '趣味は投資です。最近始めました。'
+      content: '趣味は投資です。老後資金と子供の学資資金のためにコツコツと続けています。'
     }).then(function() {
       return botui.message.add({
         delay: 2500,

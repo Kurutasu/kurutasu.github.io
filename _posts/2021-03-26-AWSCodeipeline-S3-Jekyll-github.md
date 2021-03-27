@@ -6,7 +6,7 @@ cover:  "/assets/cover_image.jpg"
 subheadline:  ""
 categories: 
 - AWS
-- Jekyll
+- jekyll
 ---
 
 # はじめに

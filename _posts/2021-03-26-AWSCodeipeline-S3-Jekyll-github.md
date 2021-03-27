@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "【IPA:SC】Code PipelineでJekyllをビルドしてS3にデプロイする"
+title:  "GithubへのpushをトリガーとしてCode PipelineでJekyllをビルドしてS3にデプロイする"
 updated: 2021-03-27
 cover:  "/assets/cover_image.jpg"
 subheadline:  ""

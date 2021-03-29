@@ -18,6 +18,8 @@ S3上のコンテンツをCloudFrontを使用し配信している。
 
 参照：[GithubへのpushをトリガーとしてCode PipelineでJekyllをビルドしてS3にデプロイする](https://kurutasu.github.io/2021/03/26/AWSCodeipeline-S3-Jekyll-github)
 
+S3の更新をトリガーとし、LambdaからCodeFrontのInvalidationを実行する
+
 # 手順
 
 ## IAM ロールの作成

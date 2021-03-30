@@ -9,11 +9,14 @@ categories:
 - 本
 ---
 
-<table border="0" cellpadding="0" cellspacing="0"><tr><td><div style="border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:280px;margin:0px;padding:5px;text-align:center;overflow:hidden;"><table><tr><td style="width:128px"><a href="https://hb.afl.rakuten.co.jp/ichiba/1f866b4f.c2a33749.1f866b50.4cea28af/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbookfan%2Fbk-4492045090%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIxMjh4MTI4IiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  ><img src="https://hbb.afl.rakuten.co.jp/hgb/1f866b4f.c2a33749.1f866b50.4cea28af/?me_id=1285657&item_id=11002621&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fbookfan%2Fcabinet%2F00454%2Fbk4492045090.jpg%3F_ex%3D128x128&s=128x128&t=picttext" border="0" style="margin:2px" alt="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]" title="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]"></a></td><td style="vertical-align:top;width:136px;"><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word"><a href="https://hb.afl.rakuten.co.jp/ichiba/1f866b4f.c2a33749.1f866b50.4cea28af/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbookfan%2Fbk-4492045090%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIxMjh4MTI4IiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  >人生の基盤は妊娠中から3歳までに決まる　人生でいちばん大切な3歳までの育て方／白川嘉継【1000円以上送料無料】</a><br><span >価格：1430円（税込、送料無料)</span> <span style="color:#BBB">(2021/3/30時点)</span></p></td></tr></table></div><br><p style="color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word"></p></td></tr></table>
+人生の基盤は妊娠中から3歳までに決まる 人生でいちばん大切な3歳までの育て方／白川嘉継
+[![人生の基盤は妊娠中から3歳までに決まる 人生でいちばん大切な3歳までの育て方／白川嘉継](https://images-na.ssl-images-amazon.com/images/I/51yJDOJugaL._SX344_BO1,204,203,200_.jpg)](https://hb.afl.rakuten.co.jp/ichiba/1f080676.3bc9372a.1f080677.0ab4bda0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F12408779%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjEyOHgxMjgiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MCwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9)
 
 # 本の感想
 
 全般を通して「母子の愛着」「脳」について書かれている。
+
+クーラーの効いた部屋で過ごした子どもは体温調節が苦手になる→熱中症になりにくい体にするためには2歳6ヶ月までに暑さを経験させる
 
 妊娠中におなかの子に出来ることは、栄養を摂ること（魚、りんご）とストレスを回避すること。
 
@@ -29,10 +32,125 @@ categories:
 
 # 本のポイント
 
+## 脳の発達に合わせた0歳から2歳までの育て方11のコツ
 
+### 【0歳0ヶ月～2ヶ月】母乳育児を確立する時期
+
+1. 母乳育児は愛着形成の最初の一歩で、最も重要な要素
+
+    * 人口ミルクより母乳で育った方が脳組織内LCPUFAの濃度が高い、大脳皮質のDHAの濃度が高い
+
+2. 母乳育児で「女性脳」から「母性脳」に変える
+
+    * 哺乳瓶はラクだが、使用しすぎは注意
+
+    * 授乳中に出るオキシトシン（幸福ホルモン）が重要
+
+3. 目を見ながら、語りかけながら、授乳する
+
+    * 携帯やTVを見ながらだと、十分にオキシトシンが出ない
+
+4. たくさんスキンシップをとる
+
+    * 「抱き癖」なんてものはない
+
+    * こどもが求めたとき、不安そうなときはとくに多く
+
+### 【3~5ヶ月】相互作用で信頼を深める時期
+
+5. 笑顔で話しかけ、一緒に色々な遊びをする
+
+    * 「いないいないばあ」の「ばぁ」のときは常に笑顔で
+
+6. いい睡眠のリズムを作る
+
+    * 小学校入学までは20時就寝が理想的
+
+### 【6ヶ月~1歳】最も感覚能力が高まる時期
+
+7. ハイハイできる場所を確保し、ゆっくり見つめる
+
+    * 語学教育をするのであればこの時期
+
+8. 共感能力を高めるため、笑顔で接する
+
+    * 早期教育よりも親子のコミュニケーションを重視する
+
+9. 絵本の読み語りをする
+
+    * 自分自身がしてもらっていないと子供にできない
+
+### 【1~2歳】その子に合わせたコミュニケーション
+
+10. 記憶が形成される次期なので、沢山の経験を積み重ねる
+
+11. 行動を見守り、助けを求められたら、手を差し伸べる
+
+    * 失敗してもよい、ダメと言わず難しい課題を与えて成功体験を積ませる
+
+    * 褒める
+
+## 2歳以降の上手なコミュニケーションの取り方9のコツ
+
+### 【2~3歳】「完全な助け」から「支援」の時期へ
+
+1. ひとりの人間として尊重する
+
+    * 否定しない、話を聞いてあげる
+
+    * 子どもを急かさず、**待つ**
+
+2. 子どもが自分で言葉を見つける前に先回りしてはいけない
+
+    * 子どもの感情、人生を決定する権限は親にはない。**待つ**
+
+3. 「イヤイヤ期」は同じ目線で一緒に考える
+
+    * 子どもの目線まで腰を落としてどうしたのか聞く
+
+4. 怒るのではなく、上手に叱る
+
+    * 相手の立場を考えさせる
+
+    * 叩いたり、頭ごなしに叱ったりはしない
+
+    * 60秒以内で簡潔に
+
+    * 子どもにいつも同じ基準で対応する
+
+### 【3歳以降】成長するにつれて愛情が深まるように
+
+5. 視線を併せて微笑み合う習慣をつける
+
+    * 笑ってると楽しくなる
+
+6. いい行動を見つけて適切に褒める
+
+    * 我慢してできたことを褒める
+
+    * 行動のどこがどのようによかったのか具体的に褒める
+
+    * 闇雲に褒めるのは避ける
+
+    * 何かができたとき、他社に対して思いやりを持った行動は小さいことでもどんどん褒める
+
+7. 約束したことは必ず守る
+
+    * 子どもとの約束を守るのは心理的虐待の最たるもの
+
+    * できない約束はしない
+
+8. 「甘やかし」ではなく「甘えを許す」
+
+    * 子どもがさみしさを紛らわせる習慣（もの）をつける前に適切に甘えを許すことで困ったときに助けを得られる心地よさを教える
+
+    |甘やかし|甘えを許す|
+    |:--|:--|
+    |・親主体<br>・望む前に与えられている<br>・過剰に与えられているため、忍耐が育たない|・子ども主体<br>・望んだときに与えられている<br>・不必要なものに対しては我慢ができる|
+
+9. 安心して過ごせる環境を整える
+
+    * 夫婦がお互いに尊敬、尊重し合い、仲が良い
 
 # 参考
 
-* [CodePipelineからAWS Lambdaを呼び出してCloudFrontのキャッシュを削除(Invalidation)してみた](https://dev.classmethod.jp/articles/cloudfront-invalidation-using-codepipeline-custom-action/)
-
-* [AWS Lambdaで作るSlack bot (Incoming Webhook)](https://qiita.com/yokoc1322/items/553ad147b82277b2beca)

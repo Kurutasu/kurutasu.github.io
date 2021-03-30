@@ -50,7 +50,7 @@ S3の更新をトリガーとし、LambdaからCodeFrontのInvalidationを実行
 
 ※「[Automatic Cloudfront invalidation with Amazon Lambda](https://blog.miguelangelnieto.net/posts/Automatic_Cloudfront_invalidation_with_Amazon_Lambda.html)」より引用
 
-```
+```json
 {
   "Version": "2012-10-17",
   "Statement": [
@@ -110,7 +110,7 @@ S3の更新をトリガーとし、LambdaからCodeFrontのInvalidationを実行
 
 ![](https://lh3.googleusercontent.com/pw/ACtC-3eUhVHFQCTjDkvqeyzIRPkLA0SN9WHc12Ib5AxBp-X0Wm6p5mTCNK_s8aiVSp4OtAypvZvwgTt4suVv0Kof5vaVhtUe22rpaiIHHcMqD4-DsnVQFzR5AQkGvS7VDXksLHfjsQZsdlnE3NghDt972lKU=w1284-h546-no?authuser=0)
 
-ランタイムで使用する言語は「Python 2.8」、実行ロールは既存のロールから「先ほど作成した IAM ロール」を指定する
+ランタイムで使用する言語は「Python 3.8」、実行ロールは既存のロールから「先ほど作成した IAM ロール」を指定する
 
 ![](https://lh3.googleusercontent.com/pw/ACtC-3ehgXv_VkN_dTiQV7GNeGJBIDxGPa_rA3-Cv38tFQ0M38hOdRX8_l0fZ_xkQq8lNlHvBkdvTW4xBy02HXPB8PZKEoVWkiBIucEzRCkhzROBOVXS0cPl4g3xrk8NG9A3DYMDqYHCTRdNJZHUg7anCX8Z=w1272-h490-no?authuser=0)
 

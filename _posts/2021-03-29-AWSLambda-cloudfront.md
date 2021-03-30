@@ -211,4 +211,4 @@ PipeLine処理がいつ完了したか取得するため、SNSを用いてSlack�
 
 * [CodePipelineからAWS Lambdaを呼び出してCloudFrontのキャッシュを削除(Invalidation)してみた](https://dev.classmethod.jp/articles/cloudfront-invalidation-using-codepipeline-custom-action/)
 
-* drawTool：https://app.diagrams.net/
+* [drawTool](https://app.diagrams.net/)

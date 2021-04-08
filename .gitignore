@@ -2,3 +2,4 @@ algolia.sh
 .sass-cache/*
 _site/*
 .DS_Store
+.bundle/*

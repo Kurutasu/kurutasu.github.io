@@ -163,3 +163,10 @@ bundle update --bundler
 * [Ruby 2.7 の bundle install で Could not find 'bundler' エラーが出たときの対応](https://qiita.com/uasi/items/8be1490b1735dae05e6a)
 
 * [Gemfile.lock内にはbundlerのバージョンをトラッキングする記述がある](https://shinkufencer.hateblo.jp/entry/2019/05/20/000000)
+
+デフォルトで使用しているコンピュータが`build.general1.large`の為、このままだと、Codebuildでbuildのたび、1分/0.02$料金が発生する。`build.general1.small`であれば1月あたり100分まで無料の為、こちらに変更する
+
+CodeBuildの`環境を編集する`より、`追加設定`を選択。コンピューティングの欄を`3 GB メモリ、2 vCPU`に設定
+
+* [ビルド環境のコンピューティングタイプ](https://docs.aws.amazon.com/ja_jp/codebuild/latest/userguide/build-env-ref-compute-types.html)
+

@@ -9,8 +9,19 @@ categories:
 - 本
 ---
 
-人生の基盤は妊娠中から3歳までに決まる 人生でいちばん大切な3歳までの育て方／白川嘉継
-[![人生の基盤は妊娠中から3歳までに決まる 人生でいちばん大切な3歳までの育て方／白川嘉継](https://images-na.ssl-images-amazon.com/images/I/51yJDOJugaL._SX344_BO1,204,203,200_.jpg)](https://hb.afl.rakuten.co.jp/ichiba/1f080676.3bc9372a.1f080677.0ab4bda0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F12408779%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjEyOHgxMjgiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MCwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9)
+<div id="affili-box">
+    <div class="afi-image">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/51yJDOJugaL._SX344_BO1,204,203,200_.jpg" width="160" height="160" style="border: none;">
+    </div>
+    <div id="afi-info">
+        <div class="afi-link">人生の基盤は妊娠中から3歳までに決まる 人生でいちばん大切な3歳までの育て方</div>
+        <div>白川嘉継</div>
+        <div id="link-button">
+            <div class="acite-onebtn"><a href="https://hb.afl.rakuten.co.jp/ichiba/1f080676.3bc9372a.1f080677.0ab4bda0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F12408779%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjEyOHgxMjgiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MCwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9" target="_blank">楽天市場</a>
+            </div>
+        </div>
+    </div>
+</div>
 
 # 本の感想
 

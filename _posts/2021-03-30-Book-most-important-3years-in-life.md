@@ -11,7 +11,7 @@ categories:
 
 <div id="affili-box">
     <div class="afi-image">
-        <img src="https://images-na.ssl-images-amazon.com/images/I/51yJDOJugaL._SX344_BO1,204,203,200_.jpg" width="160" height="160" style="border: none;">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/51yJDOJugaL._SX344_BO1,204,203,200_.jpg" style="border: none;">
     </div>
     <div id="afi-info">
         <div class="afi-link">人生の基盤は妊娠中から3歳までに決まる 人生でいちばん大切な3歳までの育て方</div>

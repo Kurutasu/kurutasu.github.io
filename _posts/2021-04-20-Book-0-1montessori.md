@@ -124,7 +124,7 @@ categories:
 
 <div id="affili-box">
     <div class="afi-image">
-        <img src="https://shop.r10s.jp/greenery/cabinet/mys-komono/img56453072.jpg" width="160" height="125" style="border: none;">
+        <img src="https://shop.r10s.jp/greenery/cabinet/mys-komono/img56453072.jpg" style="border: none;">
     </div>
     <div id="afi-info">
         <div class="afi-link">KataKata
@@ -138,7 +138,7 @@ categories:
 
 <div id="affili-box">
     <div class="afi-image">
-        <img src="https://tshop.r10s.jp/cheeky/cabinet/4501-5000/u004836.jpg?downsize=330:*" width="160" height="160" style="border: none;">
+        <img src="https://tshop.r10s.jp/cheeky/cabinet/4501-5000/u004836.jpg?downsize=330:*" style="border: none;">
     </div>
     <div id="afi-info">
         <div class="afi-link">クーゲルン</div>
@@ -151,7 +151,7 @@ categories:
 
 <div id="affili-box">
     <div class="afi-image">
-        <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/umaissu/cabinet/0271/0271-00-0114_1.jpg" width="160" height="160" style="border: none;">
+        <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/umaissu/cabinet/0271/0271-00-0114_1.jpg"  style="border: none;">
     </div>
     <div id="afi-info">
         <div class="afi-link">PWナチュラルリング</div>
@@ -164,7 +164,7 @@ categories:
 
 <div id="affili-box">
     <div class="afi-image">
-        <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/flclover-ergo/cabinet/borneland/imgrc0070520159.jpg" width="160" height="160" style="border: none;">
+        <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/flclover-ergo/cabinet/borneland/imgrc0070520159.jpg" style="border: none;">
     </div>
     <div id="afi-info">
         <div class="afi-link">ツインラトル</div>
@@ -191,7 +191,7 @@ categories:
 
 <div id="affili-box">
     <div class="afi-image">
-        <img src="https://image.rakuten.co.jp/yotuba1214/cabinet/goods88/a-toy-xxx8248.jpg" width="160" height="160" style="border: none;">
+        <img src="https://image.rakuten.co.jp/yotuba1214/cabinet/goods88/a-toy-xxx8248.jpg" style="border: none;">
     </div>
     <div id="afi-info">
         <div class="afi-link">ゆらりんタワー</div>
@@ -204,7 +204,7 @@ categories:
 
 <div id="affili-box">
     <div class="afi-image">
-        <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/umaissu/cabinet/0271/0271-00-0207_1.jpg" width="160" height="160" style="border: none;">
+        <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/umaissu/cabinet/0271/0271-00-0207_1.jpg" style="border: none;">
     </div>
     <div id="afi-info">
         <div class="afi-link">カラーリングのペグ遊び</div>

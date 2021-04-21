@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "【子育て】人生の基盤は妊娠中から3歳までに決まる 人生でいちばん大切な3歳までの育て方"
+title:  "【子育て】未来の才能をのばす 0歳と1歳のモンテッソーリ子育て"
 updated: 2021-03-30
 cover:  "/assets/cover_image.jpg"
-subheadline:  "まとめ：教育より何よりまず、親からの愛情、子供にとっての安心が何より大切"
+subheadline:  "まとめ：赤ちゃんに生まれつき備わっている子育ち力を、いかに周りの大人が援助し見守るか"
 categories: 
 - 子育て
 - 本
@@ -11,10 +11,10 @@ categories:
 
 <div id="affili-box">
     <div class="afi-image">
-        <img src="https://images-na.ssl-images-amazon.com/images/I/41GW+GhXSUL._SX354_BO1,204,203,200_.jpg" width="125" height="160" style="border: none;">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/41GW+GhXSUL._SX354_BO1,204,203,200_.jpg" style="border: none;">
     </div>
     <div id="afi-info">
-        <div class="afi-link">未来の才能をのばす 0歳と1歳のモンテッソーリ子育て</div>
+        <div class="afi-link">未来の才能をのばす ０歳と１歳のモンテッソーリ子育て</div>
         <div class="afi-detail">あべ ようこ
         </div>
         <div id="link-button">
@@ -30,7 +30,7 @@ categories:
 
 モンテッソーリ教育について、漫画で分かりやすくまとめられている
 
-特に、0〜1歳期に重点を置かれている
+特に、０〜１歳期に重点を置かれている
 
 赤ちゃんに生まれつき備わっている子育ち力を、いかに周りの大人が援助し見守るか
 
@@ -54,7 +54,7 @@ categories:
 
 <div id="affili-box">
     <div class="afi-image">
-        <img src="https://tshop.r10s.jp/nakamori/cabinet/mdc/product/06351314/image1_2.jpg?downsize=400:*" width="125" height="160" style="border: none;">
+        <img src="https://tshop.r10s.jp/nakamori/cabinet/mdc/product/06351314/image1_2.jpg?downsize=400:*" style="border: none;">
     </div>
     <div id="afi-info">
         <div class="afi-link">fuwaraの安心抱っこふとん トッポンチーノ
@@ -68,7 +68,7 @@ categories:
 
 ## 赤ちゃんが生まれたら-産後生活の始め方-
 
-* 母子共生期（生後6~8週）はできるだけ赤ちゃんとママが密着して過ごす
+* 母子共生期（生後６～８週）はできるだけ赤ちゃんとママが密着して過ごす
 
     【メリット】
 
@@ -98,7 +98,7 @@ categories:
 
 1. できるだけ、いつもと同じを心がける
 
-## 赤ちゃんの成長をサポートするポイント-0~5ヶ月まで-
+## 赤ちゃんの成長をサポートするポイント-０～５ヶ月まで-
 
 【子育ち力】
 
@@ -185,7 +185,7 @@ categories:
 
 1. 口元をよく見せる
 
-## お座りや一人歩きができるようになったら-6ヶ月~2歳ごろまで-
+## お座りや一人歩きができるようになったら-６ヶ月~２歳ごろまで-
 
 * いたずらでなくお仕事
 

@@ -5,7 +5,7 @@ updated: 2021-03-30
 cover:  "/assets/cover_image.jpg"
 subheadline:  "まとめ：教育より何よりまず、親からの愛情、子供にとっての安心が何より大切"
 categories: 
-- 投資
+- 子育て
 - 本
 ---
 

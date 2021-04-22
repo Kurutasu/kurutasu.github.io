@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "【投資】僕がウォール街で学んだ勝利の投資術 億り人へのパスポート渡します"
+title:  "【本・投資】僕がウォール街で学んだ勝利の投資術 億り人へのパスポート渡します"
 updated: 2021-04-22
 cover:  "/assets/cover_image.jpg"
 subheadline:  "まとめ：長期をしっかり余裕があれば短期も"

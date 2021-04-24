@@ -11,7 +11,7 @@ categories:
 
 <div id="affili-box">
     <div class="afi-image">
-        <img src="https://tshop.r10s.jp/book/cabinet/9445/9784046049445.jpg?fitin=200:300&composite-to=*,*|200:300" width="125" height="160" style="border: none;">
+        <img src="https://tshop.r10s.jp/book/cabinet/9445/9784046049445.jpg?fitin=200:300&composite-to=*,*|200:300" style="border: none;">
     </div>
     <div id="afi-info">
         <div class="afi-link">僕がウォール街で学んだ勝利の投資術 億り人へのパスポート渡します</div>
@@ -289,11 +289,11 @@ categories:
 
 # 参考
 
-![](https://yt3.ggpht.com/ytc/AAUvwniBByLhA1uo5mv-W-Okcw_1UMS-9RUJTRrf2_pXPw=s88-c-k-c0x00ffffff-no-rj)
+<img src="https://yt3.ggpht.com/ytc/AAUvwniBByLhA1uo5mv-W-Okcw_1UMS-9RUJTRrf2_pXPw=s88-c-k-c0x00ffffff-no-rj" width="100" height="100" style="border: none;">
 
 [Dan Takahashi 高橋ダン - 日本語チャンネル](https://www.youtube.com/channel/UCFXl12dZUPs7MLy_dMkMZYw)
 
-![](https://yt3.ggpht.com/ytc/AAUvwnjogq8zURWcoBPyc2lvTF0CWnwEFxKE-zGxV737MA=s88-c-k-c0x00ffffff-no-rj)
+<img src="https://yt3.ggpht.com/ytc/AAUvwnjogq8zURWcoBPyc2lvTF0CWnwEFxKE-zGxV737MA=s88-c-k-c0x00ffffff-no-rj" width="100" height="100" style="border: none;">
 
 [Dan Takahashi - English Channel](https://www.youtube.com/channel/UCvWYxYwyl0gUIqG3Zu0dRUw)
 

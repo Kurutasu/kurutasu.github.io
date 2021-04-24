@@ -71,7 +71,7 @@
   function showMemotaro() {
     botui.message.add({
       delay: 1500,
-      content: 'このウェブサイトには，日記以上かつQiita未満なメモやを書く予定です。'
+      content: 'このウェブサイトには，日記以上かつQiita未満なメモを書く予定です。'
     }).then(function(){
       return botui.message.add({
         delay: 2000,

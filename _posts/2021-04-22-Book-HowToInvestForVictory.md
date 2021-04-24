@@ -289,3 +289,13 @@ categories:
 
 # 参考
 
+![](https://yt3.ggpht.com/ytc/AAUvwniBByLhA1uo5mv-W-Okcw_1UMS-9RUJTRrf2_pXPw=s88-c-k-c0x00ffffff-no-rj)
+
+[Dan Takahashi 高橋ダン - 日本語チャンネル](https://www.youtube.com/channel/UCFXl12dZUPs7MLy_dMkMZYw)
+
+![](https://yt3.ggpht.com/ytc/AAUvwnjogq8zURWcoBPyc2lvTF0CWnwEFxKE-zGxV737MA=s88-c-k-c0x00ffffff-no-rj)
+
+[Dan Takahashi - English Channel](https://www.youtube.com/channel/UCvWYxYwyl0gUIqG3Zu0dRUw)
+
+
+

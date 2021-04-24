@@ -18,8 +18,11 @@ categories:
         <div class="afi-detail">高橋　ダン
         </div>
         <div id="link-button">
-            <div class="acite-onebtn">
-                <a href="https://hb.afl.rakuten.co.jp/ichiba/1f080676.3bc9372a.1f080677.0ab4bda0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F16484161%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9" target="_blank">楽天市場
+            <div class="acite-twobtn">
+                <a target="_blank" href="https://www.amazon.co.jp/gp/product/B08NHZTPMG/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B08NHZTPMG&linkCode=as2&tag=kurutasu-22&linkId=d978389f761933ce19e7a2f31753672f">Amazonで買う</a>
+            </div>
+            <div class="bcite-twobtn">
+                <a href="https://hb.afl.rakuten.co.jp/ichiba/1f080676.3bc9372a.1f080677.0ab4bda0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F16484161%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9" target="_blank">楽天市場で買う
                 </a>
             </div>
         </div>

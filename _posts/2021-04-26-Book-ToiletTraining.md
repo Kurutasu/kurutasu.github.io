@@ -6,7 +6,6 @@ cover:  "/assets/cover_image.jpg"
 subheadline:  "まとめ：１歳６ヶ月を過ぎたら徐々に始める（焦る必要はない）"
 categories: 
 - 子育て
-- 本
 ---
 
 # 初めに

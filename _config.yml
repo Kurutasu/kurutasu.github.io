@@ -140,12 +140,12 @@ social:
 #    desc: Follow me on Kaggle
 #    share: false
 
-#  - name: LinkedIn
-#    icon: linkedin
-#    username: Ben Centra
-#    url: https://www.linkedin.com/pub/ben-centra/47/769/60a
-#    desc: Connect with me on LinkedIn
-#    share: true
+  - name: LinkedIn
+    icon: linkedin
+    username: linkedin.com/toshi-k
+    url: https://www.linkedin.com/in/toshi-k/
+    desc: Connect with me on LinkedIn
+    share: false
 
 #  - name: Google+
 #    icon: google-plus

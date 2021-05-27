@@ -40,7 +40,7 @@
   function showCarrier() {
     botui.message.add({
       delay: 1500,
-      content: '大学では，（情報工学）を専攻していました。'
+      content: '大学では、（情報工学）を専攻していました。'
     }).then(function() {
       return botui.message.add({
         delay: 2500,
@@ -71,7 +71,7 @@
   function showMemotaro() {
     botui.message.add({
       delay: 1500,
-      content: 'このウェブサイトには，日記以上かつQiita未満なメモを書く予定です。'
+      content: 'このウェブサイトには、日記以上かつQiita未満なメモを書く予定です。'
     }).then(function(){
       return botui.message.add({
         delay: 2000,
@@ -80,12 +80,12 @@
     }).then(function(){
       return botui.message.add({
         delay: 2000,
-        content: 'Categoriesには，各記事をカテゴリごとにまとめています。'
+        content: 'Categoriesには、各記事をカテゴリごとにまとめています。'
       });
     }).then(function(){
       return botui.message.add({
         delay: 2000,
-        content: 'なお，本ウェブサイトの内容を，予告なく変更・削除する場合があります．何卒ご理解のほど，よろしくお願い致します．'
+        content: 'なお、本ウェブサイトの内容を、予告なく変更・削除する場合があります。何卒ご理解のほど、よろしくお願い致します。'
       });
     }).then(askEnd);
   }
@@ -113,11 +113,11 @@
   function end() {
     botui.message.add({
       delay: 1500,
-      content: 'お時間頂き，ありがとうございました．'
+      content: 'お時間頂き、ありがとうございました。'
     }).then(function(){
       return botui.message.add({
         delay: 1500,
-        content: 'それでは，引き続きよろしくお願いします！'
+        content: 'それでは、引き続きよろしくお願いします！'
       });
     });
   }
